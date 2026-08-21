@@ -1,0 +1,9 @@
+.obsidian/themes
+.obsidian/plugins/**/*.*
+
+
+.obsidian/app.json
+.obsidian/apperance.json
+.obsidian/workspace.json
+.obsidian/appearance.json
+.obsidian/graph.json

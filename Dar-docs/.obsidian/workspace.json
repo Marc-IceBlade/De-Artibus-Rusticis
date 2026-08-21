@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "a78a75d4d5d1c63c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c5d351b1acd5e6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a7f17a1868a7281",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "De Artibus Rusticis/Idea 2 - Herb Drying.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Idea 2 - Herb Drying"
+            }
+          },
+          {
+            "id": "5a3929aef5ae64de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "De Artibus Rusticis/Idea 3 - Herb & Spice Rework (If Possible).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Idea 3 - Herb & Spice Rework (If Possible)"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8c8e92e5b284f62",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fea86dfe9c76e95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2b96c5375810a9d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "16d7d2284e2fc70b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "14347979d525bc06",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eddd382953b8bb99",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d4b7cdd4ff0854b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "672fcb0a149eea7b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "De Artibus Rusticis/Idea 3 - Herb & Spice Rework (If Possible).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "343473d24e0d479b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "De Artibus Rusticis/Idea 3 - Herb & Spice Rework (If Possible).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d756d1c4a3d667cc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c617b54b7491463f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6a7c509042ba4aad",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "De Artibus Rusticis/Idea 3 - Herb & Spice Rework (If Possible).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5a3929aef5ae64de",
+  "lastOpenFiles": [
+    "gitignore",
+    "De Artibus Rusticis/Idea 2 - Herb Drying.md",
+    "De Artibus Rusticis/Idea 3 - Herb & Spice Rework (If Possible).md",
+    "Test1.png",
+    "Test1 1.png",
+    "Test2.png",
+    "De Artibus Rusticis/Idea 1 - More Dairy Options.md"
+  ]
+}
