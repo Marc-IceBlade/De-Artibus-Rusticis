@@ -1,6 +1,7 @@
 .obsidian/themes
 .obsidian/plugins/**/*.*
-
+!.obsidian/plugins/fast-text-color/styles.css
+!.obsidian/plugins/fast-text-color/data.json
 
 .obsidian/app.json
 .obsidian/apperance.json
