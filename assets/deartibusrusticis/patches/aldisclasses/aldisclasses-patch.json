@@ -1,0 +1,881 @@
+[
+    //Anise
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-7",
+        "value": [
+		{ type: "item", code: "deartibusrusticis:seeds-anise", quantity: { avg: 1.2}  },
+		{ type: "item", code: "deartibusrusticis:spice-anise", "dropModbyStat": "produceDropRate", quantity: { avg: 3.0, var: 1}  }
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/anise.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/anise.json",
+        "path": "/dropsByType/*-5",
+        "value": [
+        { "type": "item", "code": "deartibusrusticis:seeds-anise", "quantity": { "avg": 2.5, "var": 0.5 } }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "server"
+    },
+
+    //Bearleek
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-6",
+        "value": [
+		{ type: "item", code: "deartibusrusticis:seeds-bearleek", quantity: { avg: 1.2}  },
+		{ type: "item", code: "deartibusrusticis:spice-bearleek", "dropModbyStat": "produceDropRate", quantity: { avg: 2.0, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/bearleek.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/bearleek.json",
+        "path": "/dropsByType/*-4",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-bearleek",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+
+    //Beetroot
+    {
+       "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-4",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:vegetable-beetroot", "dropModbyStat": "produceDropRate", quantity: { avg: 3, var: 1 }  },
+			{ type: "item", code: "deartibusrusticis:seeds-beetroot", quantity: { avg: 0.99}  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json",
+        "side": "server"
+    },
+    {
+       "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-5",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-beetroot", quantity: { avg: 1.2} },
+			{ type: "item", code: "deartibusrusticis:vegetable-beetroot", "dropModbyStat": "produceDropRate", quantity: { avg: 7, var: 2  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json",
+        "path": "/dropsByType/*-3",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-beetroot",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //Black Cumin
+    {
+       "dependsOn": [ { "modid": "aldiclasses" } ],
+        "path": "/dropsByType/*-7",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-blackcumin", quantity: { avg: 0.99}  },
+			{ type: "item", code: "deartibusrusticis:spice-blackcumin", "dropModbyStat": "produceDropRate", quantity: { avg: 2.0, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-8",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-blackcumin", quantity: { avg: 1.2}  },
+			{ type: "item", code: "deartibusrusticis:spice-blackcumin", "dropModbyStat": "produceDropRate", quantity: { avg: 5.0, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json",
+        "path": "/dropsByType/*-6",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-blackcumin",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //Chervil
+    {
+       "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-4",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:herb-chervil", "dropModbyStat": "produceDropRate", quantity: { avg: 2, var: 1 }  },
+			{ type: "item", code: "deartibusrusticis:seeds-chervil", quantity: { avg: 0.7 }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-5",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:herb-chervil", "dropModbyStat": "produceDropRate", quantity: { avg: 3, var: 1 }  },
+			{ type: "item", code: "deartibusrusticis:seeds-chervil", quantity: { avg: 0.7 }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json",
+        "path": "/dropsByType/*-3",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-chervil",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //Chives
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-7",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-chives", quantity: { avg: 2.0, var: 1  }  },
+			{ type: "item", code: "deartibusrusticis:herb-chives", "dropModbyStat": "produceDropRate", quantity: { avg: 1.5, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chives.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/chives.json",
+        "path": "/dropsByType/*-5",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-chives",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+
+    //Cress
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-6",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-cress", quantity: { avg: 1.2}  },
+		    { type: "item", code: "deartibusrusticis:spice-cress", "dropModbyStat": "produceDropRate", quantity: { avg: 1.0}  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cress.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/cress.json",
+        "path": "/dropsByType/*-4",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-cress",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+
+    //Cucumber
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-11",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-cucumber", quantity: { avg: 0.99}  },
+			{ type: "item", code: "deartibusrusticis:vegetable-cucumber", "dropModbyStat": "produceDropRate", quantity: { avg: 2.0, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-12",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-cucumber", quantity: { avg: 1.2}  },
+			{ type: "item", code: "deartibusrusticis:vegetable-cucumber", "dropModbyStat": "produceDropRate", quantity: { avg: 4.0, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json",
+        "path": "/dropsByType/*-9",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-cucumber",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //Eruca
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-7",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-eruca", quantity: { avg: 1.2}  },
+		    { type: "item", code: "deartibusrusticis:spice-eruca", "dropModbyStat": "produceDropRate", quantity: { avg: 2.0, var: 1  }  }
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/eruca.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/eruca.json",
+        "path": "/dropsByType/*-5",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-eruca",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+
+    //Estragon
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-5",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:herb-estragon", "dropModbyStat": "produceDropRate", quantity: { avg: 2, var: 1 }  },
+			{ type: "item", code: "deartibusrusticis:seeds-estragon", quantity: { avg: 0.7 }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/estragon.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-6",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:herb-estragon", "dropModbyStat": "produceDropRate", quantity: { avg: 3, var: 1 }  },
+			{ type: "item", code: "deartibusrusticis:seeds-estragon", quantity: { avg: 0.7 }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/estragon.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-7",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-estragon", quantity: { avg: 0.7}  },
+			{ type: "item", code: "deartibusrusticis:herb-estragon", "dropModbyStat": "produceDropRate", quantity: { avg: 4, var: 1 }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/estragon.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/estragon.json",
+        "path": "/dropsByType/*-5",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-estragon",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+
+    //Favabeans
+    {
+       "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-11",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-favabeans", quantity: { avg: 0.99}  },
+			{ type: "item", code: "deartibusrusticis:legume-favabeans", "dropModbyStat": "produceDropRate", quantity: { avg: 4.0, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-12",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-favabeans", quantity: { avg: 1.2}  },
+			{ type: "item", code: "deartibusrusticis:legume-favabeans", "dropModbyStat": "produceDropRate", quantity: { avg: 9.0, var: 2  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json",
+        "path": "/dropsByType/*-5",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-favabeans",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //Garlic
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-4",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:herb-garlic", "dropModbyStat": "produceDropRate", quantity: { avg: 3, var: 1}  },
+			{ type: "item", code: "deartibusrusticis:seeds-garlic", quantity: { avg: 0.8  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-5",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:herb-garlic", "dropModbyStat": "produceDropRate", quantity: { avg: 5, var: 1}  },
+			{ type: "item", code: "deartibusrusticis:seeds-garlic", quantity: { avg: 0.8  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "side": "server"
+    },
+    {
+       "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-6",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:vegetable-garlic", "dropModbyStat": "produceDropRate", quantity: { avg: 3, var: 1 }  },
+			{ type: "item", code: "deartibusrusticis:herb-garlic", "dropModbyStat": "produceDropRate", quantity: { avg: 7, var: 1}  },
+			{ type: "item", code: "deartibusrusticis:seeds-garlic", quantity: { avg: 0.99  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-7",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:vegetable-garlic", "dropModbyStat": "produceDropRate", quantity: { avg: 9, var: 2}  },
+			{ type: "item", code: "deartibusrusticis:seeds-garlic", quantity: { avg: 1.2}  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+         "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "path": "/dropsByType/*-5",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-garlic",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+
+    //Horseradish
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-5",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:vegetable-horseradish", "dropModbyStat": "produceDropRate", quantity: { avg: 2, var: 1 }  },
+			{ type: "item", code: "deartibusrusticis:seeds-horseradish", quantity: { avg: 0.99}  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-6",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:vegetable-horseradish", "dropModbyStat": "produceDropRate", quantity: { avg: 7, var: 2 }  },
+			{ type: "item", code: "deartibusrusticis:seeds-horseradish", quantity: { avg: 1.2}  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json",
+        "path": "/dropsByType/*-4",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-horseradish",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //Leek
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-5",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-leek", quantity: { avg: 0.99}  },
+			{ type: "item", code: "deartibusrusticis:vegetable-leek", "dropModbyStat": "produceDropRate", quantity: { avg: 2, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json",
+        "side": "server"
+    },
+    {
+       "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-6",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-leek", quantity: { avg: 1.2}  },
+			{ type: "item", code: "deartibusrusticis:vegetable-leek", "dropModbyStat": "produceDropRate", quantity: { avg: 9, var: 2  }  }
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json",
+        "path": "/dropsByType/*-4",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-leek",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //Lentils
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-7",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-lentils", quantity: { avg: 0.99}  },
+			{ type: "item", code: "deartibusrusticis:legume-lentils", "dropModbyStat": "produceDropRate", quantity: { avg: 2.0, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-8",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-lentils", quantity: { avg: 1.2}  },
+			{ type: "item", code: "deartibusrusticis:legume-lentils", "dropModbyStat": "produceDropRate", quantity: { avg: 6.0, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json",
+        "path": "/dropsByType/*-6",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-lentils",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+       "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //Lettuce
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-6",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:vegetable-lettuce", "dropModbyStat": "produceDropRate", quantity: { avg: 2, var: 1 }  },
+			{ type: "item", code: "deartibusrusticis:seeds-lettuce", quantity: { avg: 0.99}  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "side": "server"
+    },
+    {
+       "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-7",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-lettuce", quantity: { avg: 1.2}  },
+			{ type: "item", code: "deartibusrusticis:vegetable-lettuce", "dropModbyStat": "produceDropRate", quantity: { avg: 3, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-8",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-lettuce", quantity: { avg: 1.2}  },
+			{ type: "item", code: "deartibusrusticis:vegetable-lettuce", "dropModbyStat": "produceDropRate", quantity: { avg: 5, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "path": "/dropsByType/*-5",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-lettuce",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //Meum
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-7",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-meum", quantity: { avg: 1.2}  },
+		    { type: "item", code: "deartibusrusticis:spice-meum", "dropModbyStat": "produceDropRate", quantity: { avg: 3.0, var: 1  }  },
+		    { type: "item", code: "deartibusrusticis:root-meum", quantity: { avg: 1.0 }  }
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/meum.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/meum.json",
+        "path": "/dropsByType/*-5",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-meum",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+
+    //Peas
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-8",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:legume-peas", "dropModbyStat": "produceDropRate", quantity: { avg: 1, var: 1 }  },
+			{ type: "item", code: "deartibusrusticis:seeds-peas", quantity: { avg: 0.7  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json",
+        "side": "server"
+    },
+    {
+       "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-9",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:legume-peas", "dropModbyStat": "produceDropRate", quantity: { avg: 6.0, var: 1  }  },
+			{ type: "item", code: "deartibusrusticis:seeds-peas", quantity: { avg: 1.5, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "op": "move",
+        "frompath": "/dropsByType/*",
+        "path": "/temp",
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json",
+        "path": "/dropsByType/*-7",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-peas",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/dropsByType/*",
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json",
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ]
+    },
+
+    //White Mustard
+    {
+        "dependsOn": [ { "modid": "aldiclasses" } ],
+        "op": "replace",
+        "path": "/dropsByType/*-7",
+        "value": [
+		    { type: "item", code: "deartibusrusticis:seeds-whitemustard", quantity: { avg: 1.2}  },
+		    { type: "item", code: "deartibusrusticis:spice-whitemustard", "dropModbyStat": "produceDropRate", quantity: { avg: 3.0, var: 1  }  },
+		],
+        "file": "deartibusrusticis:blocktypes/plant/crop/whitemustard.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "file": "deartibusrusticis:blocktypes/plant/crop/whitemustard.json",
+        "path": "/dropsByType/*-5",
+        "value": [
+        {
+            "type": "item",
+            "code": "deartibusrusticis:seeds-whitemustard",
+            "quantity": {
+            "avg": 2.5,
+            "var": 0.5
+        }
+      }
+    ],
+        "dependsOn": [ { "modid": "aldiclasses" }, { "modid": "cropsv2", "invert":true }, { "modid": "farmingrevamped", "invert":true }, { "modid": "ksrealisticfarming", "invert":true }, { "modid": "artofgrowingpatch", "invert":true }  ],
+        "side": "Server"
+    }
+]
