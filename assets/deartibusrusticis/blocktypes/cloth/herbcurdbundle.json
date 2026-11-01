@@ -1,8 +1,11 @@
 {
 	code: "herbcurdbundle",
-	class: "BlockCheeseCurdsBundle",
+	class: "DAR.BlockExpandedCheeseCurdsBundle",
 	entityClass: "CheeseCurdsBundle",
 	entityBehaviors: [{ name: "Animatable" }],
+	attributes: {
+		cheeseItem: "deartibusrusticis:herbrawcheese-salted"
+	},
 	shape: { base: "game:block/food/curdbundle-plain" },
 	blockmaterial: "Cloth",
 	textures: {
