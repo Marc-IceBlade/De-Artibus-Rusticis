@@ -1,0 +1,276 @@
+[
+	{
+		"ingredientPattern": "CSD,H  ,M  ",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "butchering:offal-clean",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:redmeat-*",
+				"allowedVariants": [
+					"raw",
+					"cured"
+				],
+				"quantity": 4
+			},
+			"S": {
+				"type": "item",
+				"code": "deartibusrusticis:herb-*"
+			},
+			"D": {
+				"type": "item",
+				"code": "deartibusrusticis:spice-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 0.4
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "seasonedsausage-bloodsausage-raw",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "CSD,H  ,M  ",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "butchering:offal-clean",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:bushmeat-*",
+				"allowedVariants": [
+					"raw",
+					"cured"
+				],
+				"quantity": 8
+			},
+			"S": {
+				"type": "item",
+				"code": "deartibusrusticis:herb-*"
+			},
+			"D": {
+				"type": "item",
+				"code": "deartibusrusticis:spice-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 0.4
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "seasonedsausage-bloodsausage-raw",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "CSD,H  ,M  ",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "butchering:offal-clean",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:poultry-*",
+				"allowedVariants": [
+					"raw"
+				],
+				"quantity": 6
+			},
+			"S": {
+				"type": "item",
+				"code": "deartibusrusticis:herb-*"
+			},
+			"D": {
+				"type": "item",
+				"code": "deartibusrusticis:spice-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 0.4
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "seasonedsausage-bloodsausage-raw",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "CS,H ,M ",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "butchering:offal-clean",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:redmeat-*",
+				"allowedVariants": [
+					"raw",
+					"cured"
+				],
+				"quantity": 4
+			},
+			"S": {
+				"type": "item",
+				"code": "deartibusrusticis:blend-*"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"recipeGroup": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 0.4
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "seasonedsausage-bloodsausage-raw",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "CS,H ,M ",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "butchering:offal-clean",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:bushmeat-*",
+				"allowedVariants": [
+					"raw",
+					"cured"
+				],
+				"quantity": 8
+			},
+			"S": {
+				"type": "item",
+				"code": "deartibusrusticis:blend-*"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"recipeGroup": 2,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 0.4
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "seasonedsausage-bloodsausage-raw",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "CS,H ,M ",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "butchering:offal-clean",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:poultry-*",
+				"allowedVariants": [
+					"raw"
+				],
+				"quantity": 6
+			},
+			"S": {
+				"type": "item",
+				"code": "deartibusrusticis:blend-*"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"recipeGroup": 2,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 0.4
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "seasonedsausage-bloodsausage-raw",
+			"quantity": 2
+		}
+	}
+]

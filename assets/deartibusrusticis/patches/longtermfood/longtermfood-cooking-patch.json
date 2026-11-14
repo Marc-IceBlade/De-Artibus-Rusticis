@@ -28,6 +28,19 @@
     "side": "Server",
 	"dependsOn": [ { "modid": "longtermfood" } ]
   	},
+	{
+    "op": "addmerge",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": {
+      "satietyByType": {
+        "*-corn": 280
+      },
+      "foodcategory": "Grain"
+    },
+    "file": "pemmican:itemtypes/food/flour.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
 	//Gingerbread Sat & Nutrition
 	{
     "op": "add",
@@ -323,5 +336,38 @@
 		],
     "side": "server",
     "dependsOn": [ { "modid": "longtermfood" } ]
-	}
+	},
+	//Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/3/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "longtermfood"} ]
+    },
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/4/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "longtermfood"} ]
+    },
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/5/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "longtermfood"} ]
+    },
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/6/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "longtermfood"} ]
+    }
 ]

@@ -1,0 +1,32 @@
+[ 
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "floralzonescircumborealregion:vegetable-lactucasativa", quantity: 2 }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:vegetable-lettuce", quantity: 1  }
+	},
+	{
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "floralzonesmediterraneanregion:vegetable-armoraciarusticana" }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:vegetable-horseradish", quantity: 1  }
+	},
+	{
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "floralzonescosmopolitanregion:vegetable-alliumsativum" }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1  }
+	}
+]

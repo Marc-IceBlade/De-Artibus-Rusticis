@@ -1,0 +1,294 @@
+[
+	//Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzoneseastasiaticregion:ciderportion-*" }
+            
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-luffaaegyptiaca", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-luffaaegyptiaca", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-petasitesjaponicus", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-petasitesjaponicus", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-liliumauratum", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group12" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-puerariamontana", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+
+	//Compost
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/0/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzoneseastasiaticregion:ciderportion-*",  shapeElement: "bowl/sweetener" }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+  {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzoneseastasiaticregion:fruit-lyciumbarbarum",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group6"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-luffaaegyptiaca", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-petasitesjaponicus", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group17" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/3/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-luffaaegyptiaca", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-petasitesjaponicus", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group17" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzoneseastasiaticregion:ciderportion-*", "shapeElement": "bowl/alcohol" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/8/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-luffaaegyptiaca", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-luffaaegyptiaca", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-petasitesjaponicus", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-petasitesjaponicus", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-liliumauratum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group12" ] },
+            { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-puerariamontana", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+
+  //Mash
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-liliumauratum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group12" ] },
+          { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-luffaaegyptiaca", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+          { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-luffaaegyptiaca", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzoneseastasiaticregion:flour-*", "shapeElement": "bowl/base/*" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+	},
+
+    //Stock
+    {
+      "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-luffaaegyptiaca" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-luffaaegyptiaca" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-petasitesjaponicus" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzoneseastasiaticregion:pickledvegetable-petasitesjaponicus" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-liliumauratum" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    //Herbal Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"puerariamontana"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+    },
+	//Ginger Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"puerariamontana"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+    },
+    //Gingerbread & Herbal
+	{
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/4/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzoneseastasiaticregion", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/5/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzoneseastasiaticregion", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-herbaldough.json",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzoneseastasiaticregion", "invert": true}],
+        "side": "Server"
+    },
+	//Gingerbread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/*-puerariamontana",
+    "value": {
+		"satiety": 185,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+  	},
+	//Herbal Bread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-puerariamontana-partbaked",
+    "value": {
+		"satiety": 235,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-puerariamontana-perfect",
+    "value": {
+		"satiety": 485,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-puerariamontana-charred",
+    "value": {
+		"satiety": 330,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+  	},
+    //Bread Satiety
+    {
+      "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-partbaked/satiety",
+      "value": 225,
+      "file": "floralzoneseastasiaticregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-perfect/satiety",
+      "value": 375,
+      "file": "floralzoneseastasiaticregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-charred/satiety",
+      "value": 285,
+      "file": "floralzoneseastasiaticregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+
+    //Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/12/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "floralzoneseastasiaticregion" } ]
+    }
+]

@@ -3,7 +3,7 @@
 	"code": "cookedchoppedvegetable",
 	"maxstacksize": 64,
 	"variantgroups": [
-		{ "code": "type", "states": ["beetroot", "leek", "lettuce", "garlic", "horseradish", "cucumber", "pickledbeetroot", "pickledleek", "pickledlettuce", "pickledgarlic", "pickledhorseradish", "pickledcucumber"] },
+		{ "code": "type", "states": ["beetroot", "leek", "garlic", "horseradish", "cucumber", "pickledbeetroot", "pickledleek", "pickledgarlic", "pickledhorseradish", "pickledcucumber"] },
 		{ "code": "state", "states": ["partbaked", "perfect", "charred" ] }
 	],
 	"shape": { "base": "deartibusrusticis:item/EF/choppedveggies/{type}" },
@@ -12,14 +12,12 @@
 		"garlic": { base: "deartibusrusticis:item/EF/baked/{state}/garlicbulb" },
 		"horseradish": { base: "deartibusrusticis:item/EF/baked/{state}/horseradish" },
 		"leek": { base: "deartibusrusticis:item/EF/baked/{state}/leek" },
-		"lettuce": { base: "deartibusrusticis:item/EF/baked/{state}/lettuce"},
 		"cucumber": { base: "deartibusrusticis:item/EF/baked/{state}/cucumber"},
 		"pickledbeetroot": { base: "deartibusrusticis:item/EF/baked/{state}/pickledbeet" },
 		"pickledgarlic": { base: "deartibusrusticis:item/EF/baked/{state}/pickledgarlic" },
 		"pickledhorseradish": { base: "deartibusrusticis:item/EF/baked/{state}/pickledhorseradish" },
 		"pickledleek": { base: "deartibusrusticis:item/EF/baked/{state}/pickledleek" },
-		"pickledlettuce": { base: "deartibusrusticis:item/EF/baked/{state}/pickledlettuce"},
-		"pickledcucumber": { base: "deartibusrusticis:item/EF/baked/{state}/pickledcucumber"},
+		"pickledcucumber": { base: "deartibusrusticis:item/EF/baked/{state}/pickledcucumber"}
 	},
     "attributes": {
       "displaycaseable": true,
@@ -31,8 +29,6 @@
 	  onDisplayTransformByType: {
           			"*-garlic": { translation: { x: 0, y: -0.3, z: 0 }, scale: 0.4 },
 					"*-pickledgarlic": { translation: { x: 0, y: -0.3, z: 0 }, scale: 0.4 },
-    	    		"*-lettuce": { translation: { x: 0, y: -0.19, z: 0 }, scale: 0.59 },
-					"*-pickledlettuce": { translation: { x: 0, y: -0.19, z: 0 }, scale: 0.59 },
           			"*": { translation: { x: 0, y: -0.19, z: 0 }, scale: 0.6 }
         		}
     },
@@ -83,18 +79,12 @@
 	"materialDensity": 600,
 	"creativeinventory": { "general": ["*"], "items": ["*"], "deartibusrusticis": ["*"] },
 	"nutritionPropsByType": {
-		"*-lettuce-partbaked": { "satiety": 165, "foodcategory": "Vegetable" },
-        "*-pickledlettuce-partbaked": { "satiety": 135, "foodcategory": "Vegetable" },
 		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
 		"cookedchoppedvegetable-*-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
 
-		"*-lettuce-perfect": { "satiety": 200, "foodcategory": "Vegetable" },
-        "*-pickledlettuce-perfect": { "satiety": 170, "foodcategory": "Vegetable" },
 		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-perfect": { "satiety": 120, "foodcategory": "Vegetable" },
 		"cookedchoppedvegetable-*-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
 
-		"*-lettuce-charred": { "satiety": 180, "foodcategory": "Vegetable" },
-        "*-pickledlettuce-charred": { "satiety": 150, "foodcategory": "Vegetable" },
 		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-charred": { "satiety": 100, "foodcategory": "Vegetable" },
 		"cookedchoppedvegetable-*-charred": { "satiety": 125, "foodcategory": "Vegetable" }
 	},

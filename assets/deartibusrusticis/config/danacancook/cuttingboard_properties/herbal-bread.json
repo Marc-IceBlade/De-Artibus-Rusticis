@@ -6,5 +6,13 @@
       "quantity": 4
     },
     "tool": ["Knife", "Sword"]
-  }
+  },
+  "bloodherbalbread-*-perfect": {
+    "convertTo": {
+      "type": "item",
+      "code": "deartibusrusticis:sliced-bloodherbbread-{type}-{state}",
+      "quantity": 4
+    },
+    "tool": ["Knife", "Sword"]
+  },
 }

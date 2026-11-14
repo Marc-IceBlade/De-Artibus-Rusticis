@@ -7,5 +7,139 @@
 			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
 		],
 		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "twwberry:spirit-{type}",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "bdcrop:spiritportion-{type}",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "pemmican:alcohol-corn",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "pemmican:alcohol-mushroomale",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "pemmican:alcohol-potato",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "pemmican:alcohol-forest",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "floralzonescosmopolitanregion:spiritportion-{type}",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "floralzonescaribbeanregion:spiritportion-{type}",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "floralzonesmediterraneanregion:spiritportion-{type}",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "floralzonescentralaustralianregion:spiritportion-{type}",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "floralzonescircumborealregion:spiritportion-{type}",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "floralzoneseastasiaticregion:spiritportion-{type}",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	},
+	{
+		enabled: false,
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "outstandingebony:spiritportion-ebony",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
 	}
 ]

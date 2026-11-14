@@ -4,10 +4,7 @@
     "path": "/attributes/lootListByType/*-seed/0/codes",
     "value": [
           "deartibusrusticis:seeds-peas",
-          "deartibusrusticis:seeds-garlic",
-          "deartibusrusticis:seeds-horseradish",
           "deartibusrusticis:seeds-lentils",
-          "deartibusrusticis:seeds-lettuce",
           "deartibusrusticis:seeds-favabeans",
           "deartibusrusticis:seeds-cucumber"
     ],
@@ -34,5 +31,34 @@
     "file": "game:blocktypes/clay/lootvessel.json",
     "side": "Server"
   },
-
+  {
+    "op": "addmerge",
+    "path": "/attributes/lootListByType/*-seed/0/codes",
+    "dependsOn": [ { "modid": "floralzonescosmopolitanregion", "invert": "true" } ],
+    "value": [
+          "deartibusrusticis:seeds-garlic"
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/lootListByType/*-seed/0/codes",
+    "dependsOn": [ { "modid": "floralzonesmediterraneanregion", "invert": "true" } ],
+    "value": [
+          "deartibusrusticis:seeds-horseradish"
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/lootListByType/*-seed/0/codes",
+    "dependsOn": [ { "modid": "floralzonescircumborealregion", "invert": "true" } ],
+    "value": [
+          "deartibusrusticis:seeds-lettuce"
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  }
 ]

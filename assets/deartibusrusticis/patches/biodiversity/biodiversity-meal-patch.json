@@ -97,12 +97,12 @@
 
 	//Stock
 	{
-        "op": "addmerge",
-        "file": "recipes/cooking/stocks.json",
-        "path": "/7/enabled",
-        "value": false,
-        "dependsOn": [{"modid": "bdcrop", "invert": true}],
-        "side": "Server"
+      "dependsOn": [ { "modid": "bdcrop" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "bdcrop:vegetable-*" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
     },
 
 	//Pickling
@@ -127,25 +127,25 @@
 
 	//Gingerbread & Herbal
 	{
-        "op": "addmerge",
-        "file": "recipes/grid/gingerbread.json",
-        "path": "/4/enabled",
-        "value": false,
-        "dependsOn": [{"modid": "bdcrop", "invert": true}],
-        "side": "Server"
-    },
-    {
-        "op": "addmerge",
-        "file": "recipes/grid/gingerbread.json",
-        "path": "/5/enabled",
+        "op": "add",
+        "file": "recipes/grid/BD/BD-gingerbread.json",
+        "path": "/0/enabled",
         "value": false,
         "dependsOn": [{"modid": "bdcrop", "invert": true}],
         "side": "Server"
     },
 	{
-        "op": "addmerge",
-        "file": "recipes/grid/herbaldough.json",
-        "path": "/2/enabled",
+        "op": "add",
+        "file": "recipes/grid/BD/BD-gingerbread.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "bdcrop", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "add",
+        "file": "recipes/grid/BD/BD-herbaldough.json",
+        "path": "/0/enabled",
         "value": false,
         "dependsOn": [{"modid": "bdcrop", "invert": true}],
         "side": "Server"
@@ -217,5 +217,15 @@
 		],
 	"side": "server",
 	"dependsOn": [ { "modid": "bdcrop" } ]
+    },
+
+	//Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/2/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "bdcrop" } ]
     }
 ]

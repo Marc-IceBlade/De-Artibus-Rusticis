@@ -175,22 +175,6 @@
         "dependsOn": [{"modid": "expandedfoods"}],
         "side": "Server"
     },
-    {
-        "op": "addmerge",
-        "file": "recipes/cooking/stocks.json",
-        "path": "/6/enabled",
-        "value": false,
-        "dependsOn": [{"modid": "expandedfoods"}],
-        "side": "Server"
-    },
-    {
-        "op": "addmerge",
-        "file": "recipes/cooking/stocks.json",
-        "path": "/7/enabled",
-        "value": false,
-        "dependsOn": [{"modid": "expandedfoods"}],
-        "side": "Server"
-    },
 
     //Change DAR Herbbroth
     {
@@ -218,25 +202,9 @@
     "side": "Server"
     },
     {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitreWhenInMeal/health",
-    "value": 15,
-    "file": "itemtypes/liquid/herbbrothportion.json",
-    "dependsOn": [{"modid": "expandedfoods"}],
-    "side": "Server"
-    },
-    {
-    "op": "replace",
-    "file": "itemtypes/liquid/herbbrothportion.json",
-    "path": "/nutritionProps/satiety",
-    "value":  1.05,
-    "dependsOn": [{"modid": "expandedfoods"}],
-    "side": "Server"
-    },
-    {
-    "op": "add",
-    "path": "/nutritionProps/health",
-    "value": 0.01,
+    "value": 1.5,
     "file": "itemtypes/liquid/herbbrothportion.json",
     "dependsOn": [{"modid": "expandedfoods"}],
     "side": "Server"
@@ -408,6 +376,14 @@
        	    "endScaleY": 1.0,
 		      "resultCode": "deartibusrusticis:cookedvegetable-pickledlettuce-partbaked"
           },
+          "*-shreddedlettuce": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedvegetable-pickledshreddedlettuce-partbaked"
+          },
           "*-garlic": {
 		        "temp": 100,
 		        "levelFrom": 0.0,
@@ -456,6 +432,14 @@
         "smeltedRatio": 1,
         "smeltingType": "cook",
         "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-lettuce-charred" },
+        "requiresContainer": false
+      },
+      "*-shreddedlettuce": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-shreddedlettuce-charred" },
         "requiresContainer": false
       },
       "*-leek": {
@@ -513,6 +497,14 @@
         "smeltedRatio": 1,
         "smeltingType": "cook",
         "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-pickledlettuce-charred" },
+        "requiresContainer": false
+      },
+      "*-shreddedlettuce": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-pickledshreddedlettuce-charred" },
         "requiresContainer": false
       },
       "*-leek": {
@@ -808,4 +800,54 @@
         "dependsOn": [{"modid": "expandedfoods"}],
         "side": "Server"
     },
+
+    //Buff EF Breadcrumps
+    {
+		  "op": "replace",
+		  "file": "expandedfoods:itemtypes/food/breadcrumbs.json",
+		  "path": "/attributes/nutritionPropsWhenInMeal/satietyByType/*-flax",
+		  "value": 50,
+      "side": "server",
+      "dependsOn": [ { "modid": "expandedfoods" } ]
+	  },
+    {
+		  "op": "replace",
+		  "file": "expandedfoods:itemtypes/food/breadcrumbs.json",
+		  "path": "/attributes/nutritionPropsWhenInMeal/satietyByType/*-rice",
+		  "value": 100,
+      "side": "server",
+      "dependsOn": [ { "modid": "expandedfoods" } ]
+	  },
+    {
+		  "op": "replace",
+		  "file": "expandedfoods:itemtypes/food/breadcrumbs.json",
+		  "path": "/attributes/nutritionPropsWhenInMeal/satietyByType/*",
+		  "value": 90,
+      "side": "server",
+      "dependsOn": [ { "modid": "expandedfoods" } ]
+	  },
+    {
+		  "op": "replace",
+		  "file": "expandedfoods:itemtypes/food/breadcrumbs.json",
+		  "path": "/nutritionPropsByType/*-flax/saturation",
+		  "value": 25,
+      "side": "server",
+      "dependsOn": [ { "modid": "expandedfoods" } ]
+	  },
+    {
+		  "op": "replace",
+		  "file": "expandedfoods:itemtypes/food/breadcrumbs.json",
+		  "path": "/nutritionPropsByType/*-rice/saturation",
+		  "value": 50,
+      "side": "server",
+      "dependsOn": [ { "modid": "expandedfoods" } ]
+	  },
+    {
+		  "op": "replace",
+		  "file": "expandedfoods:itemtypes/food/breadcrumbs.json",
+		  "path": "/nutritionPropsByType/*/saturation",
+		  "value": 45,
+      "side": "server",
+      "dependsOn": [ { "modid": "expandedfoods" } ]
+	  }
 ]

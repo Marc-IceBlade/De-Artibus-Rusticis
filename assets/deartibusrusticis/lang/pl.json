@@ -11,7 +11,7 @@
 	"block-crop-peas-9": "Dojrzały groch",
 
 	"block-crop-garlic-*": "Rosnący czosnek",
-	"block-crop-garlic-9": "Dojrzały czosnek",
+	"block-crop-garlic-7": "Dojrzały czosnek",
 
 	"block-crop-beetroot-*": "Rosnący burak",
 	"block-crop-beetroot-5": "Dojrzały burak",
@@ -225,41 +225,25 @@
 
 	"game:mealrecipe-name-mashmeal": "Tłuczonka",
 	"game:mealrecipe-name-poachmeal": "Blanszowana zielenina",
-	"game:mealrecipe-name-compostmeal": "Kompost",
-	"game:mealrecipe-name-sauerkrautmeal": "Sauerkraut",
 	"game:mealrecipe-name-meum_pear_honey": "Miód gruszkowy z wszewłogą",
 
 	"game:mealrecipe-name-mashmeal-in-container": "tłuczonką",
 	"game:mealrecipe-name-poachmeal-in-container": "blanszowaną zieleniną",
-	"game:mealrecipe-name-compostmeal-in-container": "kompostem",
-	"game:mealrecipe-name-sauerkrautmeal-in-container": "sauerkraut",
 	"game:mealrecipe-name-meum_pear_honey-in-container": "miodem gruszkowy z wszewłogą",
 
-	"game:meal-normal-mashmeal": "Tłuczonki",
-	"game:meal-normal-poachmeal": "Blanszowane warzywa",
-	"game:meal-normal-compostmeal": "{0} kompost",
-	"game:meal-normal-sauerkrautmeal": "Sauerkraut {1}",
-	"game:meal-normal-meum_pear_honey": "Miód gruszkowy z wszewłogą {1}",
+	"game:meal-normal-mashmeal": "tłuczonki",
+	"game:meal-normal-poachmeal": "blanszowanych warzyw",
+	"game:meal-normal-meum_pear_honey": "miodu gruszkowy z wszewłogą {1}",
 
 	"game:meal-hearty-mashmeal": "treściwej tłuczonki",
 	"game:meal-hearty-poachmeal": "treściwych blanszowanych warzyw",
-	"game:meal-hearty-compostmeal": "treściwego {0} kompostu",
-	"game:meal-hearty-sauerkrautmeal": "treściwej sauerkraut {1}",
 	"game:meal-hearty-meum_pear_honey": "treściwego miodu gruszkowego z wszewłogą {1}",
 
 	"game:meal-hefty-mashmeal": "sycącej tłuczonki",
 	"game:meal-hefty-poachmeal": "sycących blanszowanych warzyw",
-	"game:meal-hefty-compostmeal": "sycącego {0} kompostu",
-	"game:meal-hefty-sauerkrautmeal": "sycącej sauerkraut {1}",
 	"game:meal-hefty-meum_pear_honey": "sycącegoe miodu gruszkowego z wszewłogą {1}",
 
 	"game:recipeingredient-item-honeyportion": "miód",
-
-	"game:handbook-mealingredient-mashoil": "tłuszcz",
-	"game:handbook-mealingredient-mashbroth": "bulion",
-	"game:handbook-mealingredient-poachedmeat": "mięso",
-	"game:handbook-mealingredient-poachedegg": "jakjo",
-	"game:handbook-mealingredient-poachedvegetable": "warzywo",
 
 	"item-legume-favabeans-insturmentalcase": "bobu",
 	"recipeingredient-item-legume-favabeans": "bób",
@@ -497,7 +481,7 @@
 	"game:handbook-mealingredient-alcoholhoney": "wina lub miodu",
 	"game:handbook-mealingredient-seasoning": "przypraw",
 	"game:handbook-mealingredient-dar-seasoning": "przypraw",
-	"game:handbook-mealingredient-sauerkraut": "sauerkraut",
+	"game:handbook-mealingredient-sauerkraut": "kwaszonej kapusty",
 	"game:handbook-mealingredient-meumroot": "korzenia wszewłogi",
 	"game:handbook-mealingredient-honey_meum": "miodu",
 
@@ -621,10 +605,25 @@
 	"herbs-guide-text": "<strong>De Artibus Rusticis: Przewodnik po Zbiorze Ziół</strong><br><i>Jeśli chcesz uzyskać obfite zbiory, czas ma kluczowe znaczenie.<br>Zbieraj plony, klikając prawym przyciskiem myszy – dzięki temu uzyskasz jadalne części rośliny, a jej wzrost zostanie cofnięty. Pozwala to zachować roślinę i umożliwia wielokrotne zbiory, o ile zostaną one przeprowadzone w odpowiednim momencie. Zazwyczaj po zakwitnięciu rośliny jej liście stają się gorzkie i niejadalne. W takiej sytuacji można zazwyczaj poczekać, aż roślina w pełni dojrzeje, co pozwoli na zebranie innego rodzaju plonu.</i><br><br><strong>Anyż</strong><br>Zbieraj anyż w 5 etapie wzrostu, aby pozyskać ziele. Powoduje to cofnięcie wzrostu do 4 etapu.<br><br><strong>Czosnek niedźwiedzi</strong><br>Zbieraj czosnek niedźwiedzi w 4 etapie wzrostu, aby pozyskać zieleninę. Powoduje to powrót rośliny do 3 etapu wzrostu.<br><br><strong>Szczypiorek</strong><br>Szczypiorek należy zbierać w 5, 6 lub 7 etapie wzrostu, aby pozyskać zielone pędy. Etap 7 pozwala uzyskać więcej szczypiorku oraz nasion, przy jednoczesnym zachowaniu możliwości przyszłych zbiorów. Po zbiorze roślina wraca do 3 etapu wzrostu.<br><br><strong>Trybula</strong><br>Zbieraj trybulę w 4 lub 5 etapie wzrostu, aby pozyskać ziele. Powoduje to powrót rośliny do 3 etapu wzrostu.<br><br><strong>Rzeżucha</strong><br>Zbieraj rzeżuchę w 3 lub 4 etapie wzrostu, aby pozyskać zieleninę. Powoduje to powrót rośliny do 2 etapu wzrostu.<br><br><strong>Rukola</strong><br>Zbieraj rukolę w 4 lub 5 etapie wzrostu, aby pozyskać liście. Powoduje to powrót rośliny do 3 etapu wzrost.<br><br><strong>Estragon</strong><br>Zbieraj estragon w 5, 6 lub 7 etapie wzrostu, aby pozyskać zieleń. Powoduje to powrót rośliny do 4 etapu wzrostu.<br><br><strong>Wszewłoga</strong><br>Zbieraj wszewłogę w 4 lub 5 etapie wzrostu, aby pozyskać zieleninę. Powoduje to powrót rośliny do 3 etapu wzrostu.<br><br><strong>Gorczyca biała</strong><br>Zbieraj gorczycę białą w 5 etapie wzrostu , aby uzyskać zieleninę. Powoduje to powrót rośliny do 4 etapu wzrostu.<br><br><strong>Czosnek</strong><br>!!Czosnku nie można zebrać poprzez kliknięcie prawym przyciskiem myszy. W zależności od etapu wzrostu otrzymasz zielone części rośliny, cebulki lub jedno i drugie.<br>W etapach 4 i 5 uzyskasz zielone części czosnku, ale nie cebulki.<br>Etap 6 dostarczy nieco części zielonych oraz cebul.<br>Etap 7 dostarczy wiele cebul, ale żadnych części zielonych.!!",
 
 	"cooking-guide-title": "De Artibus Rusticis: Przewodnik po Gotowaniu",
-	"cooking-guide-text": "<strong>De Artibus Rusticis: Przewodnik po Gotowaniu</strong><br><i>Bądź kreatywny ze swoimi zbiorami.<br>Pamiętaj, że większość nowych produktów spożywczych używanych w tym modzie można dodać do większości posiłków jako składniki lub przyprawy. Jedno zioło i dwie porcje przyprawy można połączyć w jedeną <a href=\"handbook://item-deartibusrusticis:blend-simple\">mieszankę przypraw</a>,znacząco zwiększając sytości.</i><br><br><strong>Buliony</strong><br>Choć sam w sobie nie stanowi pełnego posiłku, możesz przygotować sześć różnych rodzajów bulionów, aby wzbogacić smak zupy lub wykorzystać go do przyrządzenia tłuczonkę.<br><strong><a href=\"handbook://item-deartibusrusticis:fishbrothportion\">Bulion rybny:</a></strong> W garnku połącz dwa litry wody, rybę, ości rybne oraz przyprawy.<br><strong><a href=\"handbook://item-deartibusrusticis:herbbrothportion\">Bulion ziołowy:</a></strong> W garnku połącz dwa litry wody oraz trzy zioła albo dwa zioła i jakąś przyprawę..<br><strong><a href=\"handbook://item-deartibusrusticis:meatbrothportion\">Bulion mięsny:</a> </strong> W garnku połącz dwa litry wody, kawałek czerwonego mięsa oraz przyprawy.<br><strong><a href=\"handbook://item-deartibusrusticis:marrowbrothportion\">Bulion na szpiku:</a></strong> W garnku umieść dwa litry wody, dwie kości oraz przyprawy..<br><strong><a href=\"handbook://item-deartibusrusticis:chickenbrothportion\">Bulion drobiowy:</a></strong> W garnku połącz dwa litry wody, kawałek drobiu oraz przyprawy.<br><strong><a href=\"handbook://item-deartibusrusticis:vegetablebrothportion\">Bulion warzywny:</a></strong> W garnku połącz dwa litry wody, dwa warzywa oraz przyprawy.<br><br><strong><a href=\"handbook://handbook-mealrecipe-compostmeal\">Kompost</a></strong><br>Choć nazwa ta nie brzmi przyjemnie, posiłek ten wziął swoją nazwę od łacińskiego terminu „componere”, co oznacza łączyć. Miało to stanowić dodatek do dania głównego i zapewniać równowagę między smakiem słodkim a kwaśnym. Do przygotowania tej potrawy potrzebne są: 0,2 l alkoholu, jeden owoc oraz dwa kiszone warzywa.<br><br><strong><a href=\"handbook://handbook-mealrecipe-mashmeal\">Tłuczonka</a></strong><br>stanowiły podstawę codziennej średniowiecznej kuchni. Należy wziąć dwa składniki – na przykład marchew, rzepę, pasternak, dynię, groch, soczewicę, bób, chrzan, buraki lub pory – i połączyć je z pół litra miodu, oliwy z oliwek, bulionu drobiowego, wywaru ziołowego albo wywaru warzywnego. Na koniec należy dodać nieco mąki w celu zagęszczenia potrawy.<br><br><strong><a href=\"handbook://handbook-mealrecipe-poachmeal\">Blanszowana zielenina</a> </strong><br><i>In vino veritas.</i> W winie prawda. Weź od jednego do trzech liści sałaty rzymskiej lub ziół i ugotuj je w litrze alkoholu, wody albo wywaru. Możesz dodać przyprawy, gruszki, jabłka lub rybę.<br><br><strong><a href=\"handbook://handbook-mealrecipe-sauerkrautmeal\">Sauerkraut</a> </strong><br>Najtrwalszy posiłek, jaki można przygotować w oparciu o De Artibus Rusticis: weź dwa lub trzy kawałki kiszonej kapusty, dodaj nieco miodu lub wina, a także – do wyboru – kawałek czerwonego mięsa, warzywo, jabłko lub przyprawy.<br><br><strong><a href=\"handbook://handbook-mealrecipe-meum_pear_honey\">Miód gruszkowy z wszewłogą</a> </strong><br>Miód gruszkowy z wszewłogą to raczej lekarstwo niż posiłek. Aby go przygotować, należy połączyć 0,5 l miodu, jedną gruszkę oraz jeden korzeń wszewłogi. Można również dodać przyprawy. Niezależnie od użytych składników, mikstura ta zawsze przywraca 5,0 punktów zdrowia",
+	"cooking-guide-text": "<strong>De Artibus Rusticis: Przewodnik po Gotowaniu</strong><br><i>Bądź kreatywny ze swoimi zbiorami.<br>Pamiętaj, że większość nowych produktów spożywczych używanych w tym modzie można dodać do większości posiłków jako składniki lub przyprawy. Jedno zioło i dwie porcje przyprawy można połączyć w jedeną <a href=\"handbook://item-deartibusrusticis:blend-simple\">mieszankę przypraw</a>,znacząco zwiększając sytości.</i><br><br><strong>Buliony</strong><br>Choć sam w sobie nie stanowi pełnego posiłku, możesz przygotować sześć różnych rodzajów bulionów, aby wzbogacić smak zupy lub wykorzystać go do przyrządzenia tłuczonkę.<br><strong><a href=\"handbook://item-deartibusrusticis:fishbrothportion\">Bulion rybny:</a></strong> W garnku połącz dwa litry wody, rybę, ości rybne oraz przyprawy.<br><strong><a href=\"handbook://item-deartibusrusticis:herbbrothportion\">Bulion ziołowy:</a></strong> W garnku połącz dwa litry wody oraz trzy zioła albo dwa zioła i jakąś przyprawę..<br><strong><a href=\"handbook://item-deartibusrusticis:meatbrothportion\">Bulion mięsny:</a> </strong> W garnku połącz dwa litry wody, kawałek czerwonego mięsa oraz przyprawy.<br><strong><a href=\"handbook://item-deartibusrusticis:marrowbrothportion\">Bulion na szpiku:</a></strong> W garnku umieść dwa litry wody, dwie kości oraz przyprawy..<br><strong><a href=\"handbook://item-deartibusrusticis:chickenbrothportion\">Bulion drobiowy:</a></strong> W garnku połącz dwa litry wody, kawałek drobiu oraz przyprawy.<br><strong><a href=\"handbook://item-deartibusrusticis:vegetablebrothportion\">Bulion warzywny:</a></strong> W garnku połącz dwa litry wody, dwa warzywa oraz przyprawy.<br><br><strong><a href=\"handbook://handbook-mealrecipe-compostmeal\">Kompost</a></strong><br>Choć nazwa ta nie brzmi przyjemnie, posiłek ten wziął swoją nazwę od łacińskiego terminu „componere”, co oznacza łączyć. Miało to stanowić dodatek do dania głównego i zapewniać równowagę między smakiem słodkim a kwaśnym. Do przygotowania tej potrawy potrzebne są: 0,2 l alkoholu, jeden owoc oraz dwa kiszone warzywa.<br><br><strong><a href=\"handbook://handbook-mealrecipe-mashmeal\">Tłuczonka</a></strong><br>stanowiły podstawę codziennej średniowiecznej kuchni. Należy wziąć dwa składniki – na przykład marchew, rzepę, pasternak, dynię, groch, soczewicę, bób, chrzan, buraki lub pory – i połączyć je z pół litra miodu, oliwy z oliwek, bulionu drobiowego, wywaru ziołowego albo wywaru warzywnego. Na koniec należy dodać nieco mąki w celu zagęszczenia potrawy.<br><br><strong><a href=\"handbook://handbook-mealrecipe-poachmeal\">Blanszowana zielenina</a> </strong><br><i>In vino veritas.</i> W winie prawda. Weź od jednego do trzech liści sałaty rzymskiej lub ziół i ugotuj je w litrze alkoholu, wody albo wywaru. You may add additional toppings such as fruit, nuts, meat, and other ingredients.<br><br><strong><a href=\"handbook://handbook-mealrecipe-sauerkrautmeal\">Kwaszona kapusta</a> </strong><br>Najtrwalszy posiłek, jaki można przygotować w oparciu o De Artibus Rusticis: Przygotuj kiszoną kapustę – w wersji prostej lub smakowitej – łącząc kapustę z przyprawami oraz wybranymi warzywami. Poddaj mieszankę procesowi kiszenia; tak przygotowana kapusta jest niezbędna do wykonania tego przepisu. Do przyrządzenia dania wykorzystaj jedną lub dwie porcje kapusty kwaszonej, opcjonalnie wzbogacając ją dodatkowymi składnikami, takimi jak mięso, jabłka, orzechy, przyprawy lub inne wybrane przez siebie produkty.<br><br><strong><a href=\"handbook://handbook-mealrecipe-meum_pear_honey\">Miód gruszkowy z wszewłogą</a> </strong><br>Miód gruszkowy z wszewłogą to raczej lekarstwo niż posiłek. Aby go przygotować, należy połączyć 0,5 l miodu, jedną gruszkę oraz jeden korzeń wszewłogi. Można również dodać przyprawy. Niezależnie od użytych składników, mikstura ta zawsze przywraca 5,0 punktów zdrowia",
 	
-	//Compat Names
 
+	//0.9.6 Meals
+	"game:mealrecipe-name-compostmeal": "Kompost",
+	"game:mealrecipe-name-compostmeal-in-container": "kompostem",
+	"game:meal-normal-compostmeal": "{0} kompost",
+	"game:meal-hearty-compostmeal": "treściwego {0} kompostu",
+	"game:meal-hefty-compostmeal": "sycącego {0} kompostu",
+
+	//0.9.6 Cooking
+	"game:handbook-mealingredient-mashoil": "tłuszczu",
+	"game:handbook-mealingredient-mashbroth": "bulionu",
+	"game:handbook-mealingredient-poachedmeat": "mięsa",
+	"game:handbook-mealingredient-poachedegg": "jajka",
+	"game:handbook-mealingredient-poachedvegetable": "warzyw",
+
+
+	//0.9.6 Compat Names Farming Revamped / Kaisentlaia's Realistic Farming ???
 	"block-crop-garlic-8": "Wystrzeliwujące pędy czosnku",
 	"block-crop-garlic-9": "Wystrzeliwujące pędy czosnku",
 	"block-crop-garlic-10": "Kwitnący czosnek",
@@ -641,12 +640,109 @@
 	"block-crop-lettuce-9": "Wystrzeliwujące pędy sałaty rzymskiej",
 	"block-crop-lettuce-10": "Kwitnąca sałata rzymska",
 
+	//0.9.7 Texts
+	"game:groundstoragecutlettuce-title": "Krój",
+	"game:handbook-createdby-lettucecutting": "krojona sałata",
+
+	//0.9.7 Item
+	"item-vegetable-shreddedlettuce": "Szatkowana sałata rzymska",
+	"item-pickledvegetable-shreddedlettuce": "Kiszona shredded romaine lettuce",
+
+	"item-sauerkraut-plain-raw": "Prosta kwaszona kapusta (Bez solanki)",
+	"item-sauerkraut-plain-pickled": "Kiszona prosta kwaszona kapusta",
+	"item-sauerkraut-rich-raw": "Smakowita kwaszona kapusta",
+	"item-sauerkraut-rich-pickled": "Kiszona smakowita kwaszona kapusta",
+
+	//0.9.7 Meals
+	"item-vegetable-shreddedlettuce-insturmentalcase": "sałaty rzymskiej",
+	"recipeingredient-item-vegetable-shreddedlettuce": "sałaty rzymskiej",
+	"recipeingredient-item-vegetable-shreddedlettuce-insturmentalcase": "sałaty rzymskiej",
+	"game:meal-ingredient-*-vegetable-shreddedlettuce": "sałata rzymska",
+	"meal-ingredient-*-vegetable-shreddedlettuce": "sałata rzymska",
+
+	"item-pickledvegetable-shreddedlettuce-insturmentalcase": "kiszonej sałaty rzymskiej",
+	"recipeingredient-item-pickledvegetable-shreddedlettuce": "kiszonej sałaty rzymskiej",
+	"recipeingredient-item-pickledvegetable-shreddedlettuce-insturmentalcase": "kiszonej sałaty rzymskiej",
+	"game:meal-ingredient-*-pickledvegetable-shreddedlettuce": "kiszona sałata rzymska",
+	"meal-ingredient-*-pickledvegetable-shreddedlettuce": "kiszona sałata rzymska",
+
+    "game:mealrecipe-name-sauerkrautmeal": "Gotowana kwaszona kapusta",
+    "game:mealrecipe-name-sauerkrautmeal-in-container": "Cooked sauerkraut",
+
+    "game:meal-normal-sauerkrautmeal": "gotowanej kwaszonej kapusty {1}",
+    "game:meal-hearty-sauerkrautmeal": "treściwej gotowanej kwaszonej kapusty {1}",
+    "game:meal-hefty-sauerkrautmeal": "sycącej gotowanej kwaszonej kapusty {1}",
+
+	// 0.9.7 Compat Butchering
+	"item-seasonedsausage-bloodsausage-raw": "Surowa przyprawiona kiełbasa krwista",
+	"item-seasonedsausage-blackpudding-raw": "Surowa przyprawiona kaszanka",
+	
+	"item-seasonedsausage-bloodsausage-cooked": "Gotowana przyprawiona kiełbasa krwista",
+	"item-seasonedsausage-blackpudding-cooked": "Gotowana przyprawiona kiełbasa krwista",
+	"item-seasonedsausage-bloodsausage-smoked": "Wędzona przyprawiona kaszanka",
+	"item-seasonedsausage-blackpudding-smoked": "Wędzona przyprawiona kaszanka",
+
+	"item-bloodherbalbread-spelt-dough": "Orkiszowy kriwste ciasto z ziołami",
+	"item-bloodherbalbread-spelt-partbaked": "Orkiszowy krwisty chleb z ziołami (Niedopieczony)",
+	"item-bloodherbalbread-spelt-perfect": "Orkiszowy krwisty chleb z ziołami",
+	"item-bloodherbalbread-spelt-charred": "Orkiszowy krwisty chleb z ziołami (Przypalony)",
+
+	"item-bloodherbalbread-rye-dough": "Żytnie kriwste ciasto z ziołami",
+	"item-bloodherbalbread-rye-partbaked": "Żytni krwisty chleb z ziołami (Niedopieczony)",
+	"item-bloodherbalbread-rye-perfect": "Żytni krwisty chleb z ziołami",
+	"item-bloodherbalbread-rye-charred": "Żytni krwisty chleb z ziołami (Przypalony)",
+
+	"item-bloodherbalbread-rice-dough": "Ryżowe krwiste ciasto z ziołami",
+	"item-bloodherbalbread-rice-partbaked": "Ryżowy krwisty chleb z ziołami (Niedopieczony)",
+	"item-bloodherbalbread-rice-perfect": "Ryżowy krwisty chleb z ziołami",
+	"item-bloodherbalbread-rice-charred": "Ryżowy krwisty chleb z ziołami (Przypalony)",
+
+	"item-bloodherbalbread-flax-dough": "Lniane krwiste ciasto z ziołami",
+	"item-bloodherbalbread-flax-partbaked": "Lniany krwisty chleb z ziołami (Niedopieczony)",
+	"item-bloodherbalbread-flax-perfect": "Lniany krwisty chleb z ziołami",
+	"item-bloodherbalbread-flax-charred": "Lniany krwisty chleb z ziołami (Przypalony)",
+
+	"item-bloodherbalbread-cassava-dough": "Krwawe ciasto z manioku z ziołami",
+	"item-bloodherbalbread-cassava-partbaked": "Krwawy chleb z manioku z ziołami (Niedopieczony)",
+	"item-bloodherbalbread-cassava-perfect": "Krwawy chleb z manioku z ziołami",
+	"item-bloodherbalbread-cassava-charred": "Krwawy chleb z manioku z ziołami (Przypalony)",
+
+	"item-bloodherbalbread-amaranth-dough": "Amarantusowe krwiste ciasto z ziołami",
+	"item-bloodherbalbread-amaranth-partbaked": "Krwisty chleb amarntusowy z ziołami (Niedopieczony)",
+	"item-bloodherbalbread-amaranth-perfect": "Krwisty chleb amarntusowy z ziołami",
+	"item-bloodherbalbread-amaranth-charred": "Krwisty chleb amarntusowy z ziołami (Przypalony)",
+
+	"item-bloodherbalbread-sunflower-dough": "Słonecznikowe krwiste ciasto z ziołami",
+	"item-bloodherbalbread-sunflower-partbaked": "Słonecznikowy krwisty chleb z ziołami (Niedopieczony)",
+	"item-bloodherbalbread-sunflower-perfect": "Słonecznikowy krwisty chleb z ziołami",
+	"item-bloodherbalbread-sunflower-charred": "Słonecznikowy krwisty chleb z ziołami (Przypalony)",
+
+	// 0.9.7 Compat
+
+    "deartibusrusticis:item-cookedvegetable-shreddedlettuce-charred": "Gotowana szatkowana sałata rzymska (Przypalona)",
+	"deartibusrusticis:item-cookedvegetable-shreddedlettuce-partbaked": "Gotowana szatkowana sałata rzymska (Niedopieczona)",
+	"deartibusrusticis:item-cookedvegetable-shreddedlettuce-perfect": "Gotowana szatkowana sałata rzymska (Idealna)",
+	"deartibusrusticis:item-cookedvegetable-pickledshreddedlettuce-charred": "Cooked pickled shredded lettuce (Przypalona)",
+	"deartibusrusticis:item-cookedvegetable-pickledshreddedlettuce-partbaked": "Cooked pickled shredded lettuce (Niedopieczona)",
+	"deartibusrusticis:item-cookedvegetable-pickledshreddedlettuce-perfect": "Cooked pickled shredded lettuce (Idealna)",   
+	
+
+	// 0.9.7 Compat Butchering & ExpF
+	"deartibusrusticis:item-sliced-bloodherbbread-spelt-perfect": "Spelt sliced herb bloodbread",
+	"deartibusrusticis:item-sliced-bloodherbbread-rye-perfect": "Rye sliced herb bloodbread",
+	"deartibusrusticis:item-sliced-bloodherbbread-flax-perfect": "Flax sliced herb bloodbread",
+	"deartibusrusticis:item-sliced-bloodherbbread-rice-perfect": "Rice sliced herb bloodbread",
+	"deartibusrusticis:item-sliced-bloodherbbread-cassava-perfect": "Cassava sliced herb bloodbread",
+	"deartibusrusticis:item-sliced-bloodherbbread-amaranth-perfect": "Amaranth sliced herb bloodbread",
+	"deartibusrusticis:item-sliced-bloodherbbread-sunflower-perfect": "Sunflower sliced herb bloodbread",
+
 	//Biodiversity
 	"deartibusrusticis:item-herbalbread-buckwheat-dough": "Herb buckwheat dough",
 	"deartibusrusticis:item-herbalbread-buckwheat-partbaked": "Herb buckwheat bread (niedopieczony)",
 	"deartibusrusticis:item-herbalbread-buckwheat-perfect": "Herb buckwheat bread",
 	"deartibusrusticis:item-herbalbread-buckwheat-charred": "Herb buckwheat bread (przypalony)",
 	"deartibusrusticis:item-gingerbread-buckwheat": "Buckwheat gingerbread",
+
 	
 	//Vanilla
 	"game:recipeingredient-item-ciderportion-apple": "apple cider",

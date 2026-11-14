@@ -1,0 +1,84 @@
+[
+	{
+		"ingredientPattern": "CSD,H  ,F  ",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "butchering:offal-clean",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered",
+				"quantity": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "deartibusrusticis:herb-*"
+			},
+			"D": {
+				"type": "item",
+				"code": "deartibusrusticis:spice-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 1.6
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:seasonedsausage-blackpudding-raw",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "CS,H ,F ",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "butchering:offal-clean",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered",
+				"quantity": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "deartibusrusticis:blend-*"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 1.6
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:seasonedsausage-blackpudding-raw",
+			"quantity": 2
+		}
+	}
+]

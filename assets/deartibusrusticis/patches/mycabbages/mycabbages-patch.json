@@ -1,0 +1,141 @@
+[
+	//Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+	        { "type": "item", "code": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "cabbagenerfpumpkinbuff" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/8/validStacks",
+		"value": [
+	        { "type": "item", "code": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "cabbagenerfpumpkinbuff" } ]
+	},
+    {
+		"op": "replace",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/8/validStacks/0/code",
+        "value": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",
+        "side": "server",
+	    "dependsOn": [ { "modid": "cabbagenerfpumpkinbuff" } ]
+	},
+
+	//Stock
+	{
+      "dependsOn": [ { "modid": "cabbagenerfpumpkinbuff" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+
+	//Sauerkraut Item
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/12/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/13/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/14/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/15/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/16/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/17/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/18/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/19/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/20/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/21/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/22/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/raw-sauerkraut.json",
+        "path": "/23/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cabbagenerfpumpkinbuff", invert:true}],
+        "side": "Server"
+    }
+]

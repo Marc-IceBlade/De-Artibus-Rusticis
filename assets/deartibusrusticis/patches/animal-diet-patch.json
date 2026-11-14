@@ -1,0 +1,52 @@
+[
+    {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet/weightedFoodTags/-",
+    "value": {
+      "weight": 0.2,
+      "code": "presscake"
+    },
+    "file": "game:entities/animal/mammal/hooved/goat-adult.json",
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet/weightedFoodTags/-",
+    "value": {
+      "weight": 0.2,
+      "code": "presscake"
+    },
+    "file": "game:entities/animal/mammal/hooved/pig-adult.json",
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet/weightedFoodTags/-",
+    "value": {
+      "weight": 0.2,
+      "code": "presscake"
+    },
+    "file": "game:entities/animal/mammal/hooved/sheep-adult.json",
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet/weightedFoodTags/-",
+    "value": {
+      "weight": 0.2,
+      "code": "presscake"
+    },
+    "file": "game:entities/animal/mammal/hooved/elk-tamed.json",
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet/weightedFoodTags/-",
+    "value": {
+      "weight": 0.2,
+      "code": "presscake"
+    },
+    "file": "game:entities/animal/mammal/hooved/gazelle-adult.json",
+    "side": "Server"
+    }
+]

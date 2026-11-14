@@ -5,7 +5,7 @@
     "recipeGroup": 1,
     "ingredients": {
       "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
-      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-partbaked", "name": "type" }
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-partbaked", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek"], "name": "type" }
     },
     "width": 2,
     "height": 1,
@@ -17,7 +17,7 @@
     "recipeGroup": 2,
     "ingredients": {
       "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
-      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-partbaked", "name": "type" }
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-partbaked", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek"], "name": "type" }
     },
     "width": 2,
     "height": 1,
@@ -29,7 +29,7 @@
     "recipeGroup": 1,
     "ingredients": {
       "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
-      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-perfect", "name": "type" }
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-perfect", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek"], "name": "type" }
     },
     "width": 2,
     "height": 1,
@@ -41,7 +41,7 @@
     "recipeGroup": 2,
     "ingredients": {
       "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
-      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-perfect", "name": "type" }
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-perfect", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek"], "name": "type" }
     },
     "width": 2,
     "height": 1,
@@ -53,7 +53,7 @@
     "recipeGroup": 1,
     "ingredients": {
       "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
-      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-charred", "name": "type" }
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-charred", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek"], "name": "type" }
     },
     "width": 2,
     "height": 1,
@@ -65,7 +65,7 @@
     "recipeGroup": 2,
     "ingredients": {
       "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
-      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-charred", "name": "type" }
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-charred", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek"], "name": "type" }
     },
     "width": 2,
     "height": 1,

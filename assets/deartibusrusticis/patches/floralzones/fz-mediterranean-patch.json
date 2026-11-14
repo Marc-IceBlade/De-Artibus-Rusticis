@@ -1,0 +1,255 @@
+[
+	//Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonesmediterraneanregion:ciderportion-*" }
+            
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculusscolymus", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculusscolymuspetals", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-laurusnobilis", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-capparisspinosa", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculus", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-ferulacommunis", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group8" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-armoraciarusticana", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group9" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-armoraciarusticanaprepared", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group9" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-cynaracardunculusscolymuspetals", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-capparisspinosa", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-armoraciarusticana", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group9" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+	},
+
+	//Compost
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/0/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonesmediterraneanregion:ciderportion-*",  shapeElement: "bowl/sweetener" }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+	},
+  {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonesmediterraneanregion:fruit-capparisspinosa",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group1"] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-blue",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group11"] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-purple",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group5"] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-red",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group6"] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-black",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group5"] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-white",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group4"] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-yellow",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group4"] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-green",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group17"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-cynaracardunculusscolymuspetals", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-capparisspinosa", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-armoraciarusticana", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group9" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/3/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-cynaracardunculusscolymuspetals", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-capparisspinosa", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-armoraciarusticana", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group9" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonesmediterraneanregion:ciderportion-*", "shapeElement": "bowl/alcohol" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/8/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculusscolymus", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculusscolymuspetals", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-laurusnobilis", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-capparisspinosa", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculus", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-ferulacommunis", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group8" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-armoraciarusticana", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group9" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-armoraciarusticanaprepared", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group9" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-cynaracardunculusscolymuspetals", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-capparisspinosa", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-armoraciarusticana", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group9" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+	},
+
+  //Mash
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculusscolymus", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+          { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculus", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+	},
+
+    //Stock
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculusscolymus" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculusscolymuspetals" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/5/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-laurusnobilis" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-capparisspinosa" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculus" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-ferulacommunis" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+     {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-armoraciarusticana" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-armoraciarusticanaprepared" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-cynaracardunculusscolymuspetals" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-capparisspinosa" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonesmediterraneanregion:pickledvegetable-armoraciarusticana" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+
+    //Remove garlic
+    {
+        "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+        "file": "deartibusrusticis:itemtypes/resource/seeds",
+        "op": "remove", 
+        "path": "/variantgroups/0/states/4" 
+    },
+    {
+        "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic",
+        "op": "add", 
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/floralzones/FCconversions.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonesmediterraneanregion", "invert": true}],
+        "side": "Server"
+    },
+
+    //Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/9/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ]
+    }
+]

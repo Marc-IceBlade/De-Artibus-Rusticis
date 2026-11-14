@@ -1,0 +1,285 @@
+[
+    //Bread Satiety
+  {
+    "dependsOn": [ { "modid": "butchering" } ],
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-flax-partbaked/satiety",
+    "value": 190,
+    "file": "butchering:itemtypes/food/bloodbread.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [ { "modid": "butchering" } ],
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-flax-perfect/satiety",
+    "value": 300,
+    "file": "butchering:itemtypes/food/bloodbread.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [ { "modid": "butchering" } ],
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-flax-charred/satiety",
+    "value": 225,
+    "file": "butchering:itemtypes/food/bloodbread.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [ { "modid": "butchering" } ],
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-rice-partbaked/satiety",
+    "value": 300,
+    "file": "butchering:itemtypes/food/bloodbread.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [ { "modid": "butchering" } ],
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-rice-perfect/satiety",
+    "value": 515,
+    "file": "butchering:itemtypes/food/bloodbread.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [ { "modid": "butchering" } ],
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-rice-charred/satiety",
+    "value": 375,
+    "file": "butchering:itemtypes/food/bloodbread.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [ { "modid": "butchering" } ],
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-partbaked/satiety",
+    "value": 290,
+    "file": "butchering:itemtypes/food/bloodbread.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [ { "modid": "butchering" } ],
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-perfect/satiety",
+    "value": 475,
+    "file": "butchering:itemtypes/food/bloodbread.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [ { "modid": "butchering" } ],
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-charred/satiety",
+    "value": 365,
+    "file": "butchering:itemtypes/food/bloodbread.json",
+    "side": "Server"
+  },
+
+    //Seasoned Recipe
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/healingprimemeat-dar.json",
+      "path": "/0/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/healingprimemeat-dar.json",
+      "path": "/1/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/healingprimemeat-dar.json",
+      "path": "/2/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+
+    //Sausages
+    {
+        "dependsOn": [ { "modid": "butchering" } ],
+        "file": "deartibusrusticis:itemtypes/butchering/seasoned-sausage",
+        "op": "add", 
+        "path": "/enabled",
+        "value": true
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/seasonedblackpudding.json",
+      "path": "/0/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/seasonedblackpudding.json",
+      "path": "/1/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/seasonedbloodsausage.json",
+      "path": "/0/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/seasonedbloodsausage.json",
+      "path": "/1/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/seasonedbloodsausage.json",
+      "path": "/1/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/seasonedbloodsausage.json",
+      "path": "/2/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/seasonedbloodsausage.json",
+      "path": "/3/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/seasonedbloodsausage.json",
+      "path": "/4/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/seasonedbloodsausage.json",
+      "path": "/5/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+
+    //Blood Herbal
+    {
+        "dependsOn": [ { "modid": "butchering" } ],
+        "file": "deartibusrusticis:itemtypes/butchering/blood-herbalbread",
+        "op": "add", 
+        "path": "/enabled",
+        "value": true
+    },
+    {
+      "op": "addmerge",
+      "file": "recipes/grid/butchering/herbalblooddough.json",
+      "path": "/0/enabled",
+      "value": false,
+      "dependsOn": [{"modid": "butchering", "invert": true}],
+      "side": "Server"
+    },
+
+    //Sliced Blood Bread - Dana Can Cook
+    {
+        "dependsOn": [ { "modid": "butchering" }, { "modid": "moreblood" } ],
+        "file": "deartibusrusticis:itemtypes/butchering/danacancook-bloodbread",
+        "op": "add", 
+        "path": "/enabled",
+        "value": true
+    },
+
+    //More Blood Things
+    {
+      "dependsOn": [ { "modid": "moreblood" } ],
+      "op": "addmerge",
+      "path": "/nutritionProps/satiety",
+      "value": 190,
+      "file": "moreblood:itemtypes/food/slicedbloodbread.json",
+      "side": "Server"
+    },
+
+    //Cooking
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+          { "type": "item", "code": "butchering:primemeat-raw", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group6" ] },
+          { "type": "item", "code": "butchering:smoked-none-primemeat", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group2" ] },
+			    { "type": "item", "code": "butchering:smoked-none-redmeat", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group2" ] },
+          { "type": "item", "code": "butchering:smoked-cured-redmeat", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group2" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "butchering" } ]
+	  },
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/poach.json",
+		  "path": "/ingredients/5/validStacks",
+		  "value": [
+          { "type": "item", "code": "butchering:primemeat-raw", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group6" ] },
+          { "type": "item", "code": "butchering:smoked-none-primemeat", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group2" ] },
+			    { "type": "item", "code": "butchering:smoked-none-redmeat", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group2" ] },
+          { "type": "item", "code": "butchering:smoked-cured-redmeat", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group2" ] },
+			    { "type": "item", "code": "butchering:smoked-none-fish", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group4" ] },
+			    { "type": "item", "code": "butchering:smoked-cured-fish", "shapeElement": "bowl/meat/*", "textureMapping": [ "meat", "group4" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "butchering" } ]
+	  },
+
+    //Broths
+    {
+      "dependsOn": [ { "modid": "butchering" } ],
+      "op": "addmerge",
+      "path": "/2/ingredients/1/validStacks/-",
+      "value": {
+        "type": "item",
+        "code": "butchering:strongbone"
+      },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "butchering" } ],
+      "op": "addmerge",
+      "path": "/1/ingredients/2/validStacks",
+      "value": [
+        { "type": "item", "code": "butchering:smoked-none-redmeat" },
+        { "type": "item", "code": "butchering:smoked-cured-redmeat" },
+        { "type": "item", "code": "butchering:smoked-none-primemeat" },
+        { "type": "item", "code": "butchering:primemeat-raw" }
+      ],
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "butchering" } ],
+      "op": "addmerge",
+      "path": "/4/ingredients/1/validStacks",
+      "value": [
+        { "type": "item", "code": "butchering:smoked-none-fish" },
+        { "type": "item", "code": "butchering:smoked-cured-fish" }
+      ],
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    }
+]

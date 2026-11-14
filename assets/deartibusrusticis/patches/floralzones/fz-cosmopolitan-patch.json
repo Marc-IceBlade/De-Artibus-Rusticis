@@ -1,0 +1,486 @@
+[
+	//Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonescosmopolitanregion:ciderportion-*" }
+            
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonescosmopolitanregion:legume-phaseolusvulgaris", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group12" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:legume-phaseolusvulgarisimmature", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-menyanthestrifoliata", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-alliumsativum", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-cladoniarangiferina", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group11" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-ulvalactuca", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-ipomoeabatatas", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group16" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-ipomoeabatatas", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group16" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-phaseolusvulgarisimmature", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-alliumsativum", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+
+	//Compost
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/0/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescosmopolitanregion:ciderportion-*",  shapeElement: "bowl/sweetener" }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+  {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescosmopolitanregion:fruit-empetrumnigrum",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group5"] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:fruit-cocosnucifera",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group11"] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:fruit-cucurbitaficifolia",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group4"] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:fruit-juniperuscommunis",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group1"] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:fruit-sonneratiacaseolaris",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group2"] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:fruit-caricapapaya",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group7"] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:fruit-vanillaplanifolia",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group4"] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:fruit-lagunculariaracemosa",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group4"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-ipomoeabatatas", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group16" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-phaseolusvulgarisimmature", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-alliumsativum", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/3/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-ipomoeabatatas", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group16" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-phaseolusvulgarisimmature", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-alliumsativum", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { "type": "block", "code": "floralzonescosmopolitanregion:aquaticplant-ulvalactuca", "shapeElement": "bowl/poachedlettuce/*", "textureMapping": [ "vegetable", "poachedlettuce" ]  }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescosmopolitanregion:ciderportion-*", "shapeElement": "bowl/alcohol" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/8/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescosmopolitanregion:legume-phaseolusvulgaris", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group12" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:legume-phaseolusvulgarisimmature", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-menyanthestrifoliata", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-alliumsativum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-cladoniarangiferina", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group11" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-ulvalactuca", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-ipomoeabatatas", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group16" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-ipomoeabatatas", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group16" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-phaseolusvulgarisimmature", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-alliumsativum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+
+  //Mash
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-ulvalactuca", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+          { "type": "item", "code": "floralzonescosmopolitanregion:legume-phaseolusvulgaris", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group12" ] },
+          { "type": "item", "code": "floralzonescosmopolitanregion:legume-phaseolusvulgarisimmature", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+          { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-ipomoeabatatas", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group16" ] },
+          { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-cladoniarangiferina", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group11" ] },
+          { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-ipomoeabatatas", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group16" ] },
+          { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-phaseolusvulgarisimmature", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescosmopolitanregion:flour-*", "shapeElement": "bowl/base/*" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+	},
+
+    //Stock
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:legume-phaseolusvulgaris" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:legume-phaseolusvulgarisimmature" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-menyanthestrifoliata" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-alliumsativum" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-cladoniarangiferina" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+     {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-ulvalactuca" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:vegetable-ipomoeabatatas" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-ipomoeabatatas" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-phaseolusvulgarisimmature" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescosmopolitanregion:pickledvegetable-alliumsativum" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    //Herbal Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"cocosnucifera", "ipomoeabatatas", "zeamays"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+    },
+	//Ginger Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"cocosnucifera", "ipomoeabatatas", "zeamays"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+    },
+    //Gingerbread & Herbal
+	{
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/8/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/9/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "side": "Server"
+    },
+	  {
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-herbaldough.json",
+        "path": "/4/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "side": "Server"
+    },
+	//Gingerbread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cocosnucifera",
+    "value": {
+		"satiety": 185,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+    {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-ipomoeabatatas",
+    "value": {
+		"satiety": 185,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+    {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-zeamays",
+    "value": {
+		"satiety": 185,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+	//Herbal Bread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-cocosnucifera-partbaked",
+    "value": {
+		"satiety": 235,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-cocosnucifera-perfect",
+    "value": {
+		"satiety": 485,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-cocosnucifera-charred",
+    "value": {
+		"satiety": 330,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+    {
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-ipomoeabatatas-partbaked",
+    "value": {
+		"satiety": 235,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-ipomoeabatatas-perfect",
+    "value": {
+		"satiety": 485,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-ipomoeabatatas-charred",
+    "value": {
+		"satiety": 330,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+    {
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-zeamays-partbaked",
+    "value": {
+		"satiety": 235,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-zeamays-perfect",
+    "value": {
+		"satiety": 485,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-zeamays-charred",
+    "value": {
+		"satiety": 330,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+  	},
+    //Bread Satiety
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-partbaked/satiety",
+      "value": 225,
+      "file": "floralzonescosmopolitanregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-perfect/satiety",
+      "value": 375,
+      "file": "floralzonescosmopolitanregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-charred/satiety",
+      "value": 285,
+      "file": "floralzonescosmopolitanregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+
+    //Remove garlic
+    {
+        "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+        "file": "deartibusrusticis:itemtypes/resource/seeds",
+        "op": "remove", 
+        "path": "/variantgroups/0/states/3" 
+    },
+    {
+        "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce",
+        "op": "add", 
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/floralzones/FCconversions.json",
+        "path": "/2/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "side": "Server"
+    },
+
+    //Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/7/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ]
+    }
+]

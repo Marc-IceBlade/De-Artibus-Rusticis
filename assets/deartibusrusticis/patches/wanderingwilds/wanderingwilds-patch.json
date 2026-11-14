@@ -1,0 +1,82 @@
+[
+    //Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { type: "item", code: "twwberry:cider-bearberry" },
+            { type: "item", code: "twwberry:cider-chokecherry" },
+            { type: "item", code: "twwberry:cider-honeyberry" },
+            { type: "item", code: "twwberry:cider-salmonberry" },
+            { type: "item", code: "twwberry:cider-saskatoon" },
+            { type: "item", code: "twwberry:cider-seabuckthorn" },
+            { type: "item", code: "twwberry:cider-snowberry" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "twwberry" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { type: "item", code: "twwberry:cider-bearberry",  shapeElement: "bowl/alcohol" },
+            { type: "item", code: "twwberry:cider-chokecherry",  shapeElement: "bowl/alcohol" },
+            { type: "item", code: "twwberry:cider-honeyberry",  shapeElement: "bowl/alcohol" },
+            { type: "item", code: "twwberry:cider-salmonberry",  shapeElement: "bowl/alcohol" },
+            { type: "item", code: "twwberry:cider-saskatoon",  shapeElement: "bowl/alcohol" },
+            { type: "item", code: "twwberry:cider-seabuckthorn",  shapeElement: "bowl/alcohol" },
+            { type: "item", code: "twwberry:cider-snowberry",  shapeElement: "bowl/alcohol" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "twwberry" } ]
+	},
+    
+    //Composte
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/compost.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { type: "item", code: "twwberry:cider-bearberry",  shapeElement: "bowl/sweetener" },
+            { type: "item", code: "twwberry:cider-chokecherry",  shapeElement: "bowl/sweetener" },
+            { type: "item", code: "twwberry:cider-honeyberry",  shapeElement: "bowl/sweetener" },
+            { type: "item", code: "twwberry:cider-salmonberry",  shapeElement: "bowl/sweetener" },
+            { type: "item", code: "twwberry:cider-saskatoon",  shapeElement: "bowl/sweetener" },
+            { type: "item", code: "twwberry:cider-seabuckthorn",  shapeElement: "bowl/sweetener" },
+            { type: "item", code: "twwberry:cider-snowberry",  shapeElement: "bowl/sweetener" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "twwberry" } ]
+	},
+    {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/compost.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { "type": "item", "code": "twwberry:fruit-beachrose", "shapeElement": "bowl/fruit/*" },
+            { "type": "item", "code": "twwberry:fruit-bearberry", "shapeElement": "bowl/fruit/*" },
+            { "type": "item", "code": "twwberry:fruit-chokecherry", "shapeElement": "bowl/fruit/*" },
+            { "type": "item", "code": "twwberry:fruit-honeyberry", "shapeElement": "bowl/fruit/*" },
+            { "type": "item", "code": "twwberry:fruit-salmonberry", "shapeElement": "bowl/fruit/*" },
+            { "type": "item", "code": "twwberry:fruit-saskatoon", "shapeElement": "bowl/fruit/*" },
+            { "type": "item", "code": "twwberry:fruit-seabuckthorn", "shapeElement": "bowl/fruit/*" },
+            { "type": "item", "code": "twwberry:fruit-snowberry", "shapeElement": "bowl/fruit/*" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "twwberry" } ]
+	},
+
+	//Meum Extract
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/1/enabled",
+        "value": false,
+		"side": "server",
+		"dependsOn": [ { "modid": "twwberry", invert: true } ]
+    }
+]

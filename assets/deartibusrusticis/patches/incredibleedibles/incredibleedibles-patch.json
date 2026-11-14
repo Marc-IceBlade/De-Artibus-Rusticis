@@ -1,0 +1,112 @@
+[
+    //Walnut
+    //Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/5/validStacks",
+		"value": [
+	        { "type": "item", "code": "mightywalnut:walnut-shelled", "shapeElement": "bowl/nuts/*", "textureMapping": [ "vegetable", "group15" ] },
+            { "type": "item", "code": "mightywalnut:walnut-roasted", "shapeElement": "bowl/nuts/*", "textureMapping": [ "vegetable", "group15" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "mightywalnut" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/7/validStacks",
+		"value": [
+	        { "type": "item", "code": "mightywalnut:walnut-shelled", "shapeElement": "bowl/nuts/*", "textureMapping": [ "vegetable", "group15" ] },
+            { "type": "item", "code": "mightywalnut:walnut-roasted", "shapeElement": "bowl/nuts/*", "textureMapping": [ "vegetable", "group15" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "mightywalnut" } ]
+	},
+
+    //Gourd
+    //Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/5/validStacks",
+		"value": [
+	        { "type": "item", "code": "incrediblegourd:pumpkinseed-raw", "shapeElement": "bowl/nuts/*", "textureMapping": [ "vegetable", "group12" ] },
+            { "type": "item", "code": "incrediblegourd:pumpkinseed-roasted", "shapeElement": "bowl/nuts/*", "textureMapping": [ "vegetable", "group12" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "incrediblegourd" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/7/validStacks",
+		"value": [
+	        { "type": "item", "code": "incrediblegourd:pumpkinseed-raw", "shapeElement": "bowl/nuts/*", "textureMapping": [ "vegetable", "group12" ] },
+            { "type": "item", "code": "incrediblegourd:pumpkinseed-roasted", "shapeElement": "bowl/nuts/*", "textureMapping": [ "vegetable", "group12" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "incrediblegourd" } ]
+	},
+
+    //Outstanding Ebony
+    //Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "outstandingebony:ciderportion-ebony" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "outstandingebony" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { type: "item", code: "outstandingebony:ciderportion-ebony",  shapeElement: "bowl/alcohol" },
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "outstandingebony" } ]
+	},
+
+    //Composte
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/compost.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { type: "item", code: "outstandingebony:ciderportion-ebony",  shapeElement: "bowl/sweetener" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "outstandingebony" } ]
+	},
+    {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/compost.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit/*", "textureMapping": [ "fruit", "fruit-ebony" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "outstandingebony" } ]
+	},
+	
+	//Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/13/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "outstandingebony" } ]
+    }
+]

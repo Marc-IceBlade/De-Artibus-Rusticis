@@ -1,0 +1,50 @@
+[
+	//Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescaperegion:vegetable-aloesuccotrina", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group11" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescaperegion" } ]
+	},
+
+	//Compost
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescaperegion:fruit-carpobrotusacinaciformis",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group2"] },
+            { "type": "item", "code": "floralzonescaperegion:fruit-diospyroswhyteana",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group8"] },
+            { "type": "item", "code": "floralzonescaperegion:fruit-strelitziaalba",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group5"] },
+            { "type": "item", "code": "floralzonescaperegion:fruit-hydnoraafricana",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group2"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescaperegion" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/8/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescaperegion:vegetable-aloesuccotrina", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group11" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescaperegion" } ]
+	},
+
+	//Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/2/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "floralzonescaperegion" } ]
+    }
+]

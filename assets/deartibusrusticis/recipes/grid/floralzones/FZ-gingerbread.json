@@ -1,0 +1,181 @@
+[
+	{
+		ingredientPattern: "SH,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"H": { type: "item", code: "deartibusrusticis:herb-*"},
+			"B": { type: "item", code: "floralzonescaribbeanregion:bread-*-perfect", allowedVariants: ["sabalpalmetto"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S ,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"B": { type: "item", code: "deartibusrusticis:herbalbread-*-perfect", allowedVariants: ["sabalpalmetto"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "SH,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"H": { type: "item", code: "deartibusrusticis:herb-*"},
+			"B": { type: "item", code: "floralzonescentralaustralianregion:bread-*-perfect", allowedVariants: ["themedatriandra"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S ,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"B": { type: "item", code: "deartibusrusticis:herbalbread-*-perfect", allowedVariants: ["themedatriandra"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "SH,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"H": { type: "item", code: "deartibusrusticis:herb-*"},
+			"B": { type: "item", code: "floralzoneseastasiaticregion:bread-*-perfect", allowedVariants: ["puerariamontana"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S ,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"B": { type: "item", code: "deartibusrusticis:herbalbread-*-perfect", allowedVariants: ["puerariamontana"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "SH,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"H": { type: "item", code: "deartibusrusticis:herb-*"},
+			"B": { type: "item", code: "floralzonescircumborealregion:bread-*-perfect", allowedVariants: ["cetrariaislandica"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S ,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"B": { type: "item", code: "deartibusrusticis:herbalbread-*-perfect", allowedVariants: ["cetrariaislandica"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "SH,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"H": { type: "item", code: "deartibusrusticis:herb-*"},
+			"B": { type: "item", code: "floralzonescosmopolitanregion:bread-*-perfect", allowedVariants: ["cocosnucifera", "ipomoeabatatas", "zeamays"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S ,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"B": { type: "item", code: "deartibusrusticis:herbalbread-*-perfect", allowedVariants: ["cocosnucifera", "ipomoeabatatas", "zeamays"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	}
+]

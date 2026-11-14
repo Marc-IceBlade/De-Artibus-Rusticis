@@ -1,0 +1,303 @@
+[
+	//Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonescentralaustralianregion:ciderportion-*" }
+            
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonescentralaustralianregion:legume-swainsonaformosa", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-solanumellipticum", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group5" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-ipomoeacostata", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group16" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledlegume-swainsonaformosa", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-solanumellipticum", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group5" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-ipomoeacostata", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group16" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+
+	//Compost
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/0/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescentralaustralianregion:ciderportion-*",  shapeElement: "bowl/sweetener" }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+  {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescentralaustralianregion:fruit-enchylaenatomentosa",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group3"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledlegume-swainsonaformosa", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-solanumellipticum", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group5" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-ipomoeacostata", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group16" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/3/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledlegume-swainsonaformosa", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-solanumellipticum", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group5" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-ipomoeacostata", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group16" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescentralaustralianregion:ciderportion-*", "shapeElement": "bowl/alcohol" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/8/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescentralaustralianregion:legume-swainsonaformosa", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-solanumellipticum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group5" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-ipomoeacostata", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group16" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledlegume-swainsonaformosa", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group10" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-solanumellipticum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group5" ] },
+            { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-ipomoeacostata", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group16" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+
+  //Mash
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-ipomoeacostata", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group16" ] },
+          { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-ipomoeacostata", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group16" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescentralaustralianregion:flour-*", "shapeElement": "bowl/base/*" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+	},
+
+    //Stock
+    {
+      "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescentralaustralianregion:legume-swainsonaformosa" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-solanumellipticum" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-ipomoeacostata" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescentralaustralianregion:pickledlegume-swainsonaformosa" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-solanumellipticum" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescentralaustralianregion:pickledvegetable-ipomoeacostata" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    //Herbal Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"themedatriandra"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+    },
+	//Ginger Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"themedatriandra"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+    },
+    //Gingerbread & Herbal
+	{
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/2/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescentralaustralianregion", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/3/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescentralaustralianregion", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-herbaldough.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescentralaustralianregion", "invert": true}],
+        "side": "Server"
+    },
+	//Gingerbread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/*-themedatriandra",
+    "value": {
+		"satiety": 185,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+  	},
+	//Herbal Bread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-themedatriandra-partbaked",
+    "value": {
+		"satiety": 235,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-themedatriandra-perfect",
+    "value": {
+		"satiety": 485,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-themedatriandra-charred",
+    "value": {
+		"satiety": 330,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+  	},
+    //Bread Satiety
+    {
+      "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-partbaked/satiety",
+      "value": 225,
+      "file": "floralzonescentralaustralianregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-perfect/satiety",
+      "value": 375,
+      "file": "floralzonescentralaustralianregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-charred/satiety",
+      "value": 285,
+      "file": "floralzonescentralaustralianregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+
+    //Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/10/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "floralzonescentralaustralianregion" } ]
+    }
+]

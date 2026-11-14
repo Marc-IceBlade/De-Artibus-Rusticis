@@ -3,10 +3,12 @@
 	"code": "cookedvegetable",
 	"maxstacksize": 64,
 	"variantgroups": [
-		{ "code": "type", "states": ["beetroot", "leek", "lettuce", "garlic", "horseradish", "cucumber", "pickledbeetroot", "pickledleek", "pickledlettuce", "pickledgarlic", "pickledhorseradish", "pickledcucumber"] },
+		{ "code": "type", "states": ["beetroot", "leek", "lettuce", "shreddedlettuce", "garlic", "horseradish", "cucumber", "pickledbeetroot", "pickledleek", "pickledlettuce", "pickledshreddedlettuce", "pickledgarlic", "pickledhorseradish", "pickledcucumber"] },
 		{ "code": "state", "states": ["partbaked", "perfect", "charred" ] }
 	],
 	"shapeByType": {
+		"*-pickledshreddedlettuce-*": {"base": "deartibusrusticis:item/food/pickledvegetable/vegetable-shreddedlettuce"},
+		"*-shreddedlettuce-*": {"base": "deartibusrusticis:item/food/vegetable/vegetable-shreddedlettuce"},
 		"*-pickledgarlic-*": {"base": "deartibusrusticis:item/food/pickledvegetable/pickled-garlic"},
         "*-pickledhorseradish-*": {"base": "deartibusrusticis:item/food/pickledvegetable/pickled-horseradish"},
 		"*-pickledleek-*": {"base": "deartibusrusticis:item/food/pickledvegetable/pickled-leek"},
@@ -24,6 +26,8 @@
 	    "horseradish": { "base": "deartibusrusticis:item/EF/baked/{state}/horseradish" },
 	    "leek": { "base": "deartibusrusticis:item/EF/baked/{state}/leek" },
         "lettuce": { "base": "deartibusrusticis:item/EF/baked/{state}/lettuce"},
+		"pickledshreddedlettuce": { base: "deartibusrusticis:item/EF/baked/{state}/pickledlettuce"},
+		"shreddedlettuce": { "base": "deartibusrusticis:item/EF/baked/{state}/lettuce"},
 	    "cucumber": { "base": "deartibusrusticis:item/EF/baked/{state}/cucumber"},
         "turnip": {"base": "deartibusrusticis:item/EF/baked/{state}/pickledbeet"},
 		"pickledgarlic": { base: "deartibusrusticis:item/EF/baked/{state}/pickledgarlic" },
@@ -44,6 +48,8 @@
     	    		"*-beetroot-*": { translation: { x: 0, y: -0.45, z: -0.125 }, rotation: { x: 0, y: 45, z: -90 }, scale: 0.6 },
     	    		"*-leek-*": { translation: { x: 0.2, y: -0.475, z: 0.1 }, rotation: { x: 91, y: 0, z: -45 }, scale: 0.5 },
     	    		"*-lettuce-*": { translation: { x: 0, y: -0.275, z: 0 }, rotation: { x: 0, y: 45, z: 3 }, scale: 0.4 },
+					"*-shreddedlettuce-*": { translation: { x: 0, y: -0.275, z: 0 }, rotation: { x: 0, y: 45, z: 3 }, scale: 0.4 },
+					"*-pickledshreddedlettuce-*": { translation: { x: 0, y: -0.275, z: 0 }, rotation: { x: 0, y: 45, z: 3 }, scale: 0.4 },
           			"*-cucumber-*": { translation: { x: 0, y: -0.225, z: -0.05 }, rotation: { x: 0, y: 135, z: 0 }, scale: 0.59 },
           			"*-horseradish-*": { translation: { x: 0, y: -0.3, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.4 },
 					"*-pickledgarlic-*": { translation: { x: 0, y: -0.3, z: 0 }, rotation: { x: 0, y: -125, z: 1 }, scale: 0.4 },
@@ -121,6 +127,17 @@
 				"initialCode": "deartibusrusticis:pickledvegetable-lettuce"
 			}
 		},
+		"*-pickledshreddedlettuce-partbaked": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "deartibusrusticis:cookedvegetable-pickledshreddedlettuce-perfect",
+				"initialCode": "deartibusrusticis:pickledvegetable-shreddedlettuce"
+			}
+		},
 		"*-partbaked": {
 			"bakingProperties": {
 				"temp": 100,
@@ -167,23 +184,23 @@
 	"materialDensity": 600,
 	"creativeinventory": { "general": ["*"], "items": ["*"], "deartibusrusticis": ["*"] },
 	"nutritionPropsByType": {
-		"*-lettuce-partbaked": { "satiety": 165, "foodcategory": "Vegetable" },
-        "*-pickledlettuce-partbaked": { "satiety": 135, "foodcategory": "Vegetable" },
-		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
+		"*-lettuce-partbaked": { "satiety": 215, "foodcategory": "Vegetable" },
+        "*-pickledlettuce-partbaked": { "satiety": 185, "foodcategory": "Vegetable" },
+		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber|pickledshreddedlettuce)-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
 		"cookedvegetable-*-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
 
-		"*-lettuce-perfect": { "satiety": 200, "foodcategory": "Vegetable" },
-        "*-pickledlettuce-perfect": { "satiety": 170, "foodcategory": "Vegetable" },
-		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-perfect": { "satiety": 120, "foodcategory": "Vegetable" },
+		"*-lettuce-perfect": { "satiety": 250, "foodcategory": "Vegetable" },
+        "*-pickledlettuce-perfect": { "satiety": 220, "foodcategory": "Vegetable" },
+		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber|pickledshreddedlettuce)-perfect": { "satiety": 120, "foodcategory": "Vegetable" },
 		"cookedvegetable-*-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
 
-		"*-lettuce-charred": { "satiety": 180, "foodcategory": "Vegetable" },
-        "*-pickledlettuce-charred": { "satiety": 150, "foodcategory": "Vegetable" },
-		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-charred": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-lettuce-charred": { "satiety": 230, "foodcategory": "Vegetable" },
+        "*-pickledlettuce-charred": { "satiety": 200, "foodcategory": "Vegetable" },
+		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber|pickledshreddedlettuce)-charred": { "satiety": 100, "foodcategory": "Vegetable" },
 		"cookedvegetable-*-charred": { "satiety": 125, "foodcategory": "Vegetable" }
 	},
     "transitionablePropsByType": {
-        "@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)": [{
+        "@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber|pickledshreddedlettuce)": [{
       		"type": "Perish",
       		"freshHours": { "avg": 1800 },
       		"transitionHours": { "avg": 240 },
@@ -197,7 +214,7 @@
           "transitionedStack": { "type": "item", "code": "game:rot" },
           "transitionRatio": 1
         }],
-		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-charred": [{
+		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber|pickledshreddedlettuce)-charred": [{
 			"type": "Perish",
 			"freshHours": { "avg": 7300 },
 			"transitionHours": { "avg": 400 },
@@ -261,19 +278,31 @@
     	origin: { x: 0.5, y: 0.1, z: 0.5 },
     	scale: 3.5
   		},
+		"*-pickledshreddedlettuce-*": {
+    	rotation: { x: -43, y: 21, z: -2 },
+    	origin: { x: 0.45, y: -0.1, z: 0.45 },
+    	scale: 1.78
+ 		},
 		"*-lettuce-*": {
-    	translation: { x: 0, y: 5, z: 0 },
-    	rotation: { x: -90, y: 45, z: 0 },
-  		scale: 1.8
+    	translation: { x: 0, y: 2, z: 0 },
+    	rotation: { x: -90, y: 90, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.425 },
+    	scale: 1.9
+ 		},
+		"*-shreddedlettuce-*": {
+    	rotation: { x: -43, y: 21, z: -2 },
+    	origin: { x: 0.45, y: -0.1, z: 0.45 },
+    	scale: 1.78
  		},
 		"*-cucumber-*": {
     	rotation: { x: 90, y: 40, z: 0 },
     	scale: 2.5
  		},
 		"*-pickledlettuce-*": {
-    	translation: { x: 0, y: 5, z: 0 },
-    	rotation: { x: -90, y: 45, z: 0 },
-  		scale: 1.8
+    	translation: { x: 0, y: 2, z: 0 },
+    	rotation: { x: -90, y: 90, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.425 },
+    	scale: 1.9
  		},
 		"*-pickledcucumber-*": {
     	rotation: { x: 90, y: 40, z: 0 },
@@ -334,6 +363,18 @@
  	    rotation: { x: 0, y: 0, z: 0 },
   	 	origin: { x: 0.5, y: 0.5, z: 0.5299 },
     	scale: 2.5
+  		},
+		"*-shreddedlettuce-*": {
+    	translation: { x: 0, y: 0.22, z: 0 },
+    	rotation: { x: 0, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 3
+  		},
+		"*-pickledshreddedlettuce-*": {
+    	translation: { x: 0, y: 0.22, z: 0 },
+    	rotation: { x: 0, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 3
   		},
 		"*-cucumber-*": {
     	translation: { x: 0, y: 0.45, z: 0 },
@@ -403,6 +444,14 @@
    	 	translation: { x: -1.3, y: -0.4, z: -1 },
     	rotation: { x: 0, y: 0, z: 18 },
     	scale: 0.5
+ 		},
+		"*-shreddedlettuce-*": {
+   	 	translation: { x: -2.3, y: -1.5, z: -1.2 },
+    	rotation: { x: 2, y: 12, z: -90 }
+ 		},
+		"*-pickledshreddedlettuce-*": {
+   	 	translation: { x: -2.3, y: -1.5, z: -1.2 },
+    	rotation: { x: 2, y: 12, z: -90 }
  		},
 		"*-cucumber-*": {
     	translation: { x: -1, y: -0.2, z: -0.675 },

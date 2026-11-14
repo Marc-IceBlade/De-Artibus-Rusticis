@@ -1,0 +1,382 @@
+[
+	//Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonescircumborealregion:ciderportion-*" }
+            
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-taraxacumofficinale", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-ascophyllumnodosum", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:grain-cetrariaislandica", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group11" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-angelicaarchangelica", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-humuluslupulus", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-lactucasativa", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-hemerocallislilioasphodelus", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group12" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-taraxacumofficinale", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-ascophyllumnodosum", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-angelicaarchangelica", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-lactucasativa", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+
+	//Compost
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/0/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescircumborealregion:ciderportion-*",  shapeElement: "bowl/sweetener" }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+  {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescircumborealregion:fruit-rosamajalis",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group6"] },
+            { "type": "item", "code": "floralzonescircumborealregion:fruit-cornuscanadensis",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group6"] },
+            { "type": "item", "code": "floralzonescircumborealregion:fruit-rosagallica",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group6"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-taraxacumofficinale", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-ascophyllumnodosum", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-angelicaarchangelica", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-lactucasativa", "shapeElement": "bowl/vegetable/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/3/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-taraxacumofficinale", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-ascophyllumnodosum", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-angelicaarchangelica", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-lactucasativa", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescircumborealregion:ciderportion-*", "shapeElement": "bowl/alcohol" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/8/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescircumborealregion:vegetable-taraxacumofficinale", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+          { "type": "item", "code": "floralzonescircumborealregion:grain-cetrariaislandica", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group11" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-ascophyllumnodosum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-angelicaarchangelica", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-humuluslupulus", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group17" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-lactucasativa", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:vegetable-hemerocallislilioasphodelus", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group12" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-taraxacumofficinale", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-ascophyllumnodosum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-angelicaarchangelica", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+            { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-lactucasativa", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+
+  //Mash
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescircumborealregion:grain-cetrariaislandica", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group11" ] },
+          { "type": "item", "code": "floralzonescircumborealregion:vegetable-hemerocallislilioasphodelus", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group12" ] },
+          { "type": "item", "code": "floralzonescircumborealregion:vegetable-ascophyllumnodosum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+          { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-ascophyllumnodosum", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescircumborealregion:flour-*", "shapeElement": "bowl/base/*" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+	},
+
+    //Stock
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:vegetable-taraxacumofficinale" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:vegetable-hemerocallislilioasphodelus" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:vegetable-ascophyllumnodosum" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:vegetable-angelicaarchangelica" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:vegetable-lactucasativa" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:vegetable-hemerocallislilioasphodelus" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:vegetable-humuluslupulus" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+     {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-taraxacumofficinale" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-ascophyllumnodosum" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-angelicaarchangelica" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescircumborealregion:pickledvegetable-lactucasativa" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    //Herbal Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"cetrariaislandica"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+    },
+	//Ginger Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"cetrariaislandica"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+    },
+    //Gingerbread & Herbal
+	{
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/4/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescircumborealregion", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/5/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescircumborealregion", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-herbaldough.json",
+        "path": "/3/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescircumborealregion", "invert": true}],
+        "side": "Server"
+    },
+	//Gingerbread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/*-cetrariaislandica",
+    "value": {
+		"satiety": 185,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+  	},
+	//Herbal Bread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-cetrariaislandica-partbaked",
+    "value": {
+		"satiety": 235,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-cetrariaislandica-perfect",
+    "value": {
+		"satiety": 485,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-cetrariaislandica-charred",
+    "value": {
+		"satiety": 330,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+  	},
+    //Bread Satiety
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-partbaked/satiety",
+      "value": 225,
+      "file": "floralzonescircumborealregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-perfect/satiety",
+      "value": 375,
+      "file": "floralzonescircumborealregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-charred/satiety",
+      "value": 285,
+      "file": "floralzonescircumborealregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+
+    //Remove lettuce
+    {
+        "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+        "file": "deartibusrusticis:itemtypes/resource/seeds",
+        "op": "remove", 
+        "path": "/variantgroups/0/states/8" 
+    },
+    {
+        "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce",
+        "op": "add", 
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/floralzones/FCconversions.json",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescircumborealregion", "invert": true}],
+        "side": "Server"
+    },
+
+    //Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/11/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "floralzonescircumborealregion" } ]
+    }
+]

@@ -7,6 +7,30 @@
         "value": true,
         "side": "server"
     },
+    {
+        "dependsOn": [ { "modid": "danacancook" } ],
+        "file": "danacancook:itemtypes/sandwich/slicedbread.json",
+        "op": "replace", 
+        "path": "/nutritionPropsByType/*-flax-*/saturation",
+        "value": 100,
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "danacancook" } ],
+        "file": "danacancook:itemtypes/sandwich/slicedbread.json",
+        "op": "replace", 
+        "path": "/nutritionPropsByType/*-rice-*/saturation",
+        "value": 210,
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "danacancook" } ],
+        "file": "danacancook:itemtypes/sandwich/slicedbread.json",
+        "op": "replace", 
+        "path": "/nutritionPropsByType/*/saturation",
+        "value": 185,
+        "side": "server"
+    },
 
     //Long Term Food
     {
@@ -24,7 +48,7 @@
     "op": "add",
     "path": "/nutritionPropsByType/*-potato-*",
     "value": {
-		"satiety": 175,
+		"satiety": 170,
 		"foodcategory": "Vegetable"
 	},
     "file": "deartibusrusticis:itemtypes/sandwich/danacancook-bread.json",
@@ -35,7 +59,7 @@
     "op": "add",
     "path": "/nutritionPropsByType/*-corn-*",
     "value": {
-		"satiety": 110,
+		"satiety": 100,
 		"foodcategory": "Vegetable"
 	},
     "file": "deartibusrusticis:itemtypes/sandwich/danacancook-bread.json",
@@ -58,7 +82,7 @@
     "op": "add",
     "path": "/nutritionPropsByType/*-buckwheat-*",
     "value": {
-		"satiety": 120,
+		"satiety": 110,
 		"foodcategory": "Grain"
 	},
     "file": "deartibusrusticis:itemtypes/sandwich/danacancook-bread.json",

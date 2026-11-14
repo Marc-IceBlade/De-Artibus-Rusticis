@@ -32,6 +32,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -40,6 +41,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -56,6 +58,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -64,6 +67,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -80,6 +84,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -88,6 +93,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -138,6 +144,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -146,6 +153,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -162,6 +170,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -170,6 +179,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -186,6 +196,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -194,6 +205,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable 3/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -210,6 +222,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -218,6 +231,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable 4/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -268,6 +282,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -276,6 +291,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -292,6 +308,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -300,9 +317,19 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "favabeans" ] }
+    ],
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/8/validStacks",
+    "value": [
+      { "type": "item", "code": "deartibusrusticis:blackcuminoilportion", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "blackcuminoil" ] }
     ],
     "file": "game:recipes/cooking/meatystew.json",
     "side": "Server"
@@ -360,6 +387,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -368,6 +396,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -384,6 +413,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -392,6 +422,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -451,6 +482,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -459,6 +491,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "favabeans" ] }
@@ -475,6 +508,7 @@
       { "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:vegetable-leek", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:legume-lentils", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:legume-peas", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:legume-favabeans", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "favabeans" ] },
@@ -483,6 +517,7 @@
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "beetroot" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "cucumber" ] },
       { "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "leek" ] },
+      { "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "lettuce" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-lentils", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "lentils" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-peas", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "peas" ] },
       { "type": "item", "code": "deartibusrusticis:pickledlegume-favabeans", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "favabeans" ] }

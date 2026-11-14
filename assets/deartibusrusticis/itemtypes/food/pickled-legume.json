@@ -25,9 +25,9 @@ crockable: true,
 foodTags: ["{type}"],
 inContainerTexture: { base: "deartibusrusticis:block/wood/barrel/{type}" },
 inPiePropertiesByType: {
-                    "*-lentils": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", foodCategory: "Protein"},
-					"*-favabeans": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", foodCategory: "Protein"},
-					"*-peas": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", foodCategory: "Vegetable"},
+                    "*-lentils": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", foodCategory: "Protein", mixingCodes: ["potpie"] },
+					"*-favabeans": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", foodCategory: "Protein", mixingCodes: ["potpie"] },
+					"*-peas": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", foodCategory: "Vegetable", mixingCodes: ["potpie"] },
 						},
 nutritionPropsWhenInMeal: { satiety: 160, foodcategoryByType: { 
 	"*-peas": "Vegetable", "*-favabeans": "Protein", "*-lentils": "Protein" } 

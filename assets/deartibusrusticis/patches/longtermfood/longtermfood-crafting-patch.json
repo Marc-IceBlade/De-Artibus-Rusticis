@@ -1,34 +1,40 @@
 [
     {
-        "op": "addmerge",
-        "file": "recipes/grid/gingerbread.json",
-        "path": "/2/enabled",
-        "value": false,
-        "dependsOn": [{"modid": "longtermfood", "invert": true}],
-        "side": "Server"
-    },
-    {
-        "op": "addmerge",
-        "file": "recipes/grid/gingerbread.json",
-        "path": "/3/enabled",
+        "op": "add",
+        "file": "recipes/grid/longtermfood/LTF-gingerbread.json",
+        "path": "/0/enabled",
         "value": false,
         "dependsOn": [{"modid": "longtermfood", "invert": true}],
         "side": "Server"
     },
 	{
-        "op": "addmerge",
-        "file": "recipes/grid/herbaldough.json",
+        "op": "add",
+        "file": "recipes/grid/longtermfood/LTF-gingerbread.json",
         "path": "/1/enabled",
         "value": false,
         "dependsOn": [{"modid": "longtermfood", "invert": true}],
         "side": "Server"
     },
-    {
-        "op": "addmerge",
-        "file": "recipes/cooking/stocks.json",
-        "path": "/6/enabled",
+	{
+        "op": "add",
+        "file": "recipes/grid/longtermfood/LTF-herbaldough.json",
+        "path": "/0/enabled",
         "value": false,
         "dependsOn": [{"modid": "longtermfood", "invert": true}],
         "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "longtermfood" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks",
+      "value": [
+        { type: "item",  code: "pemmican:vegetable-*" },
+        { type: "item",  code: "pemmican:cookedvegetable-*" },
+        { type: "item",  code: "pemmican:pickledvegetable-*" },
+        { type: "item",  code: "pemmican:choppedvegetable-*" }, 
+        { type: "item",  code: "pemmican:cookedchoppedvegetable-*" }
+      ],
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
     }
 ]

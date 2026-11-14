@@ -1,0 +1,280 @@
+[
+	//Sauerkraut
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonescaribbeanregion:ciderportion-*" }
+            
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+    {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+            { "type": "item", "code": "floralzonescaribbeanregion:vegetable-palmheart", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group11" ] },
+            { "type": "item", "code": "floralzonescaribbeanregion:vegetable-xanthosomasagittifoliumleaf", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group11" ] },
+            { "type": "item", "code": "floralzonescaribbeanregion:vegetable-xanthosomasagittifoliumroot", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group3" ] },
+            { "type": "item", "code": "floralzonescaribbeanregion:pickledvegetable-xanthosomasagittifoliumroot", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group3" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+
+	//Compost
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/0/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescaribbeanregion:ciderportion-*",  shapeElement: "bowl/sweetener" }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescaribbeanregion:fruit-sabaletonia",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group5"] },
+            { "type": "item", "code": "floralzonescaribbeanregion:fruit-sabalmiamiensis",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group5"] },
+            { "type": "item", "code": "floralzonescaribbeanregion:fruit-sabalminor",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group5"] },
+            { "type": "item", "code": "floralzonescaribbeanregion:fruit-sabalpalmetto",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group5"] },
+            { "type": "item", "code": "floralzonescaribbeanregion:fruit-acoelorrhaphewrightii",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group5"] },
+            { "type": "item", "code": "floralzonescaribbeanregion:fruit-monsteradeliciosa",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group4"] },
+            { "type": "item", "code": "floralzonescaribbeanregion:fruit-selenicereuscostaricensis",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group6"] },
+            { "type": "item", "code": "floralzonescaribbeanregion:fruit-agavetequilana",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group4"] },
+            { "type": "item", "code": "floralzonescaribbeanregion:fruit-harrisiaportoricensis",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group4"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescaribbeanregion:pickledvegetable-xanthosomasagittifoliumroot",  shapeElement: "bowl/vegetable/*", textureMapping: ["fruit", "group3"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/3/validStacks",
+		  "value": [
+            { "type": "item", "code": "floralzonescaribbeanregion:pickledvegetable-xanthosomasagittifoliumroot",  shapeElement: "bowl/vegetable2/*", textureMapping: ["fruit", "group3"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+
+	//Poach
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescaribbeanregion:ciderportion-*", "shapeElement": "bowl/alcohol" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+    {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/8/validStacks",
+		"value": [
+	         { "type": "item", "code": "floralzonescaribbeanregion:vegetable-palmheart", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group11" ] },
+            { "type": "item", "code": "floralzonescaribbeanregion:vegetable-xanthosomasagittifoliumleaf", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group11" ] },
+            { "type": "item", "code": "floralzonescaribbeanregion:vegetable-xanthosomasagittifoliumroot", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group3" ] },
+            { "type": "item", "code": "floralzonescaribbeanregion:pickledvegetable-xanthosomasagittifoliumroot",  shapeElement: "bowl/vegetable1/*", textureMapping: ["fruit", "group3"] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+
+    //Mash
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescaribbeanregion:vegetable-palmheart", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group11" ] },
+            { "type": "item", "code": "floralzonescaribbeanregion:vegetable-xanthosomasagittifoliumroot", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group3" ] },
+            { "type": "item", "code": "floralzonescaribbeanregion:pickledvegetable-xanthosomasagittifoliumroot",  shapeElement: "bowl/vegetable1/*", textureMapping: ["fruit", "group3"] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+  {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+	        { "type": "item", "code": "floralzonescaribbeanregion:flour-*", "shapeElement": "bowl/base/*" }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+	},
+
+    //Stock
+    {
+      "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescaribbeanregion:vegetable-palmheart" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescaribbeanregion:vegetable-xanthosomasagittifoliumleaf" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ],
+      "op": "addmerge",
+      "path": "/3/ingredients/1/validStacks/-",
+      "value": { "type": "item", "code": "floralzonescaribbeanregion:vegetable-xanthosomasagittifoliumroot" },
+      "file": "deartibusrusticis:recipes/cooking/stocks.json",
+      "side": "Server"
+    },
+    //Herbal Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"sabalpalmetto"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+    },
+	//Ginger Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"sabalpalmetto"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+    },
+    //Gingerbread & Herbal
+	{
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescaribbeanregion", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-gingerbread.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescaribbeanregion", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "add",
+        "file": "recipes/grid/floralzones/FZ-herbaldough.json",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescaribbeanregion", "invert": true}],
+        "side": "Server"
+    },
+    //Gingerbread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/*-sabalpalmetto",
+    "value": {
+		"satiety": 185,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+  	},
+	//Herbal Bread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-sabalpalmetto-partbaked",
+    "value": {
+		"satiety": 235,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-sabalpalmetto-perfect",
+    "value": {
+		"satiety": 485,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-sabalpalmetto-charred",
+    "value": {
+		"satiety": 330,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+  	},
+    //Bread Satiety
+    {
+      "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-partbaked/satiety",
+      "value": 225,
+      "file": "floralzonescaribbeanregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-perfect/satiety",
+      "value": 375,
+      "file": "floralzonescaribbeanregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+    {
+      "dependsOn": [ { "modid": "floralzonescaribbeanregion" } ],
+      "op": "addmerge",
+      "path": "/nutritionPropsByType/*-charred/satiety",
+      "value": 285,
+      "file": "floralzonescaribbeanregion:itemtypes/food/bread.json",
+      "side": "Server"
+    },
+
+    //Meum Extract
+	{
+		"op": "replace", 
+        "file": "deartibusrusticis:recipes/barrel/meumextract.json",
+        "path": "/8/enabled",
+        "value": true,
+		"side": "server",
+		"dependsOn": [ { "modid": "floralzonescaribbeanregion" } ]
+    }
+]

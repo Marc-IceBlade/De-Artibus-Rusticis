@@ -6,7 +6,7 @@
 	shape: { base: "item/resource/presscake" },
     texture: { base: "item/resource/blackcumin_presscake"},
 	attributes: {
-		foodTags: ["fruitmash"],
+		foodTags: ["presscake"],
 		groundStorageTransform: {
       		translation: { x: 0, y: -0.1, z: 0 },
       		rotation: { x: 0, y: 38, z: 0 },

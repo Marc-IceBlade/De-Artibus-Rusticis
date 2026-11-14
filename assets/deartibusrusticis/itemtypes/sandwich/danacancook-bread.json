@@ -28,13 +28,13 @@
         }
     },
     "nutritionPropsByType": {
-        "*-flax-*": { "saturation": 85, "foodcategory": "Grain" },
-        "*-rice-*": { "saturation": 135, "foodcategory": "Grain" },
-        "*-spelt-*": { "saturation": 125, "foodcategory": "Grain" },
-        "*-rye-*": { "saturation": 125, "foodcategory": "Grain" },
-        "*-cassava-*": { "saturation": 125, "foodcategory": "Grain" },
-        "*-amaranth-*": { "saturation": 125, "foodcategory": "Grain" },
-        "*-sunflower-*": { "saturation": 125, "foodcategory": "Grain" },
+        "*-flax-*": { "saturation": 75, "foodcategory": "Grain" },
+        "*-rice-*": { "saturation": 130, "foodcategory": "Grain" },
+        "*-spelt-*": { "saturation": 120, "foodcategory": "Grain" },
+        "*-rye-*": { "saturation": 120, "foodcategory": "Grain" },
+        "*-cassava-*": { "saturation": 120, "foodcategory": "Grain" },
+        "*-amaranth-*": { "saturation": 120, "foodcategory": "Grain" },
+        "*-sunflower-*": { "saturation": 120, "foodcategory": "Grain" },
     },
     "transitionableProps": [
         {

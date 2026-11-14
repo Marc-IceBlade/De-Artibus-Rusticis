@@ -1,0 +1,46 @@
+[  
+    {
+	    ingredientPattern: "K,P",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "P": { type: "item", code: "deartibusrusticis:vegetable-lettuce" }
+	    },
+	    width: 1,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:vegetable-shreddedlettuce", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K,P",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "P": { type: "item", code: "deartibusrusticis:vegetable-lettuce" }
+	    },
+	    width: 1,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:vegetable-shreddedlettuce", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K,P",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "P": { type: "item", code: "deartibusrusticis:pickledvegetable-lettuce" }
+	    },
+	    width: 1,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:pickledvegetable-shreddedlettuce", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K,P",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "P": { type: "item", code: "deartibusrusticis:pickledvegetable-lettuce" }
+	    },
+	    width: 1,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:pickledvegetable-shreddedlettuce", quantity: 2  }
+    }
+]

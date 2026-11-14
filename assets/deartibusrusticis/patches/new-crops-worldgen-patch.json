@@ -77,12 +77,13 @@
   {
     "op": "addmerge",
     "path": "/-",
+    "dependsOn": [ { "modid": "floralzonescosmopolitanregion", "invert": "true" } ],
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-garlic-3",
         "deartibusrusticis:crop-garlic-5",
         "deartibusrusticis:crop-garlic-6",
-        "deartibusrusticis:crop-garlic-8"
+        "deartibusrusticis:crop-garlic-7"
       ],
       "minTemp": 7,
       "maxTemp": 35,
@@ -101,6 +102,7 @@
   {
     "op": "addmerge",
     "path": "/-",
+    "dependsOn": [ { "modid": "floralzonesmediterraneanregion", "invert": "true" } ],
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-horseradish-3",
@@ -149,6 +151,7 @@
   {
     "op": "addmerge",
     "path": "/-",
+    "dependsOn": [ { "modid": "cropsv2", "invert": "true" } ],
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-beetroot-2",
@@ -197,6 +200,7 @@
   {
     "op": "addmerge",
     "path": "/-",
+    "dependsOn": [ { "modid": "floralzonescircumborealregion", "invert": "true" } ],
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-lettuce-3",

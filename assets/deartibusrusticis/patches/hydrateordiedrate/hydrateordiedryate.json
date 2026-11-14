@@ -107,6 +107,18 @@
   },
   {
     "dependsOn": [ { "modid": "hydrateordiedrate" } ],
+    "file": "deartibusrusticis:itemtypes/food/sauerkraut.json",
+    "op": "addmerge",
+    "path": "/attributes",
+    "side": "server",
+    "value": {
+      "hydrationByType": {
+        "*": 25
+      }
+    }
+  },
+  {
+    "dependsOn": [ { "modid": "hydrateordiedrate" } ],
     "file": "deartibusrusticis:itemtypes/food/blend.json",
     "op": "addmerge",
     "path": "/attributes",
@@ -399,6 +411,38 @@
     "side": "server",
     "value": {
       "hydration": 600
+    }
+  },
+
+  //Butchering
+  {
+    "dependsOn": [ { "modid": "hydrateordiedrate" }, { "modid": "butchering" } ],
+    "file": "deartibusrusticis:itemtypes/butchering/blood-herbalbread.json",
+    "op": "addmerge",
+    "path": "/attributes",
+    "side": "server",
+    "value": {
+      "hydration": -50
+    }
+  },
+  {
+    "dependsOn": [ { "modid": "hydrateordiedrate" }, { "modid": "butchering" } ],
+    "file": "deartibusrusticis:itemtypes/butchering/danacancook-bloodbread.json",
+    "op": "addmerge",
+    "path": "/attributes",
+    "side": "server",
+    "value": {
+      "hydration": -15
+    }
+  },
+  {
+    "dependsOn": [ { "modid": "hydrateordiedrate" }, { "modid": "butchering" } ],
+    "file": "deartibusrusticis:itemtypes/butchering/seasoned-sausage.json",
+    "op": "addmerge",
+    "path": "/attributes",
+    "side": "server",
+    "value": {
+      "hydration": -80
     }
   }
 ]

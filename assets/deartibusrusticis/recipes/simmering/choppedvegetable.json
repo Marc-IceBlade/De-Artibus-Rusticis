@@ -2,7 +2,7 @@
 	{
 		"Ingredients": [
 			{ "type": "item", "code": "game:waterportion", "quantity": 50 },
-			{ "type": "item", "code": "deartibusrusticis:choppedvegetable-*", "quantity": 1, "name": "vegetable", "allowedVariants": [ "horseradish", "garlic", "lettuce", "beetroot", "cucumber", "leek", "pickledhorseradish", "pickledgarlic", "pickledlettuce", "pickledbeetroot", "pickledcucumber", "pickledleek" ]}
+			{ "type": "item", "code": "deartibusrusticis:choppedvegetable-*", "quantity": 1, "name": "vegetable", "allowedVariants": [ "horseradish", "garlic", "beetroot", "cucumber", "leek", "pickledhorseradish", "pickledgarlic", "pickledbeetroot", "pickledcucumber", "pickledleek" ]}
 		],
 		"Simmering": {
 			"meltingPoint": 200,
@@ -24,6 +24,34 @@
 			"smeltedRatio": 1,
 			"smeltingType": "bake",
 			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedchoppedvegetable-{vegetable}-perfect", "quantity": 1 },
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "game:waterportion", "quantity": 50 },
+			{ "type": "item", "code": "deartibusrusticis:vegetable-shreddedlettuce", "quantity": 1}
+		],
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 10,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-shreddedlettuce-perfect", "quantity": 1 },
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "game:waterportion", "quantity": 50 },
+			{ "type": "item", "code": "deartibusrusticis:pickledvegetable-shreddedlettuce", "quantity": 1}
+		],
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 10,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-pickledshreddedlettuce-perfect", "quantity": 1 },
 			"requiresContainer": false
 		}
 	}

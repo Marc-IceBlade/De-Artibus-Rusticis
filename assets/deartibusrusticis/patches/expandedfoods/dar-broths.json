@@ -28,5 +28,13 @@
 		],
     "side": "server",
     "dependsOn": [ { "modid": "expandedfoods", "invert": "true" } ]
+	},
+	{
+		  "op": "replace",
+		  "file": "deartibusrusticis:itemtypes/liquid/herbbrothportion.json",
+		  "path": "/transitionableProps/0/freshHours/avg",
+		  "value": 2592,
+    "side": "server",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
 	}
 ]

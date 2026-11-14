@@ -1,0 +1,364 @@
+[  
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
+	    },
+        allowedVariants: {
+			spice: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 1 },
+	    },
+        allowedVariants: {
+			herb: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1 },
+	    },
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
+	    },
+        allowedVariants: {
+			spice: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 1 },
+	    },
+        allowedVariants: {
+			herb: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1 },
+	    },
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+        allowedVariants: {
+			spice: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+        allowedVariants: {
+			herb: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+        allowedVariants: {
+			spice: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+        allowedVariants: {
+			herb: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "game:vegetable-cabbage", quantity: 2 },
+            "S": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+	{
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
+	    },
+        allowedVariants: {
+			spice: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 1 },
+	    },
+        allowedVariants: {
+			herb: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1 },
+	    },
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
+	    },
+        allowedVariants: {
+			spice: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 1 },
+	    },
+        allowedVariants: {
+			herb: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1 },
+	    },
+	    width: 2,
+	    height: 2,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
+    },
+
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+        allowedVariants: {
+			spice: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+        allowedVariants: {
+			herb: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-knife"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+        allowedVariants: {
+			spice: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+        allowedVariants: {
+			herb: ["whitemustard", "anise", "garlic"]
+		},
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    },
+    {
+	    ingredientPattern: "K ,CS,VD",
+	    shapeless: true,
+	    ingredients: {
+		    "K": { type: "item", tags: ["tool-cleaver"], isTool: true },
+		    "C": { type: "item", code: "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",  "quantity": 4 },
+            "S": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1 },
+            "V": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+            "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+	    },
+	    width: 2,
+	    height: 3,
+	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
+    }
+]
