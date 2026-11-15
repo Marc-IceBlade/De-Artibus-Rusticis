@@ -205,7 +205,7 @@
 	{
         "op": "add",
         "file": "recipes/grid/floralzones/FZ-herbaldough.json",
-        "path": "/0/enabled",
+        "path": "/2/enabled",
         "value": false,
         "dependsOn": [{"modid": "floralzoneseastasiaticregion", "invert": true}],
         "side": "Server"

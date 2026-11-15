@@ -451,24 +451,19 @@
       "side": "Server"
     },
 
-    //Remove garlic
-    {
-        "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
-        "file": "deartibusrusticis:itemtypes/resource/seeds",
-        "op": "remove", 
-        "path": "/variantgroups/0/states/3" 
-    },
-    {
-        "dependsOn": [ { "modid": "floralzonescosmopolitanregion" } ],
-        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce",
-        "op": "add", 
-        "path": "/enabled",
-        "value": false
-    },
+    //Exchange garlic
     {
         "op": "addmerge",
         "file": "recipes/grid/floralzones/FCconversions.json",
         "path": "/2/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/floralzones/FCconversions.json",
+        "path": "/5/enabled",
         "value": false,
         "dependsOn": [{"modid": "floralzonescosmopolitanregion", "invert": true}],
         "side": "Server"

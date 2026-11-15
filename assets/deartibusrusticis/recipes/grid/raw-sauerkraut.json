@@ -8,7 +8,7 @@
             "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
 	    },
         allowedVariants: {
-			spice: ["whitemustard", "anise", "garlic"]
+			spice: ["whitemustard", "anise"]
 		},
 	    width: 2,
 	    height: 2,
@@ -50,7 +50,7 @@
             "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
 	    },
         allowedVariants: {
-			spice: ["whitemustard", "anise", "garlic"]
+			spice: ["whitemustard", "anise"]
 		},
 	    width: 2,
 	    height: 2,
@@ -95,7 +95,7 @@
             "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
 	    },
         allowedVariants: {
-			spice: ["whitemustard", "anise", "garlic"]
+			spice: ["whitemustard", "anise"]
 		},
 	    width: 2,
 	    height: 3,
@@ -143,7 +143,7 @@
             "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
 	    },
         allowedVariants: {
-			spice: ["whitemustard", "anise", "garlic"]
+			spice: ["whitemustard", "anise"]
 		},
 	    width: 2,
 	    height: 3,
@@ -180,7 +180,9 @@
 	    height: 3,
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
     },
+
 	{
+		enabled: false,
 	    ingredientPattern: "K ,CS",
 	    shapeless: true,
 	    ingredients: {
@@ -189,13 +191,14 @@
             "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
 	    },
         allowedVariants: {
-			spice: ["whitemustard", "anise", "garlic"]
+			spice: ["whitemustard", "anise"]
 		},
 	    width: 2,
 	    height: 2,
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS",
 	    shapeless: true,
 	    ingredients: {
@@ -211,6 +214,7 @@
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS",
 	    shapeless: true,
 	    ingredients: {
@@ -223,6 +227,7 @@
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS",
 	    shapeless: true,
 	    ingredients: {
@@ -231,13 +236,14 @@
             "S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 1 },
 	    },
         allowedVariants: {
-			spice: ["whitemustard", "anise", "garlic"]
+			spice: ["whitemustard", "anise"]
 		},
 	    width: 2,
 	    height: 2,
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS",
 	    shapeless: true,
 	    ingredients: {
@@ -253,6 +259,7 @@
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-plain-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS",
 	    shapeless: true,
 	    ingredients: {
@@ -266,6 +273,7 @@
     },
 
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS,VD",
 	    shapeless: true,
 	    ingredients: {
@@ -276,13 +284,14 @@
             "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
 	    },
         allowedVariants: {
-			spice: ["whitemustard", "anise", "garlic"]
+			spice: ["whitemustard", "anise"]
 		},
 	    width: 2,
 	    height: 3,
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS,VD",
 	    shapeless: true,
 	    ingredients: {
@@ -300,6 +309,7 @@
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS,VD",
 	    shapeless: true,
 	    ingredients: {
@@ -314,6 +324,7 @@
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS,VD",
 	    shapeless: true,
 	    ingredients: {
@@ -324,13 +335,14 @@
             "D": { type: "item", code: "game:vegetable-onion", quantity: 1 },
 	    },
         allowedVariants: {
-			spice: ["whitemustard", "anise", "garlic"]
+			spice: ["whitemustard", "anise"]
 		},
 	    width: 2,
 	    height: 3,
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS,VD",
 	    shapeless: true,
 	    ingredients: {
@@ -348,6 +360,7 @@
 	    output: { type: "item", code: "deartibusrusticis:sauerkraut-rich-raw", quantity: 2  }
     },
     {
+		enabled: false,
 	    ingredientPattern: "K ,CS,VD",
 	    shapeless: true,
 	    ingredients: {

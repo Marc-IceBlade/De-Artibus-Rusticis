@@ -14,16 +14,52 @@
     //Beetroot
     {
         "dependsOn": [ { "modid": "cropsv2" } ],
-        "file": "deartibusrusticis:itemtypes/resource/seeds",
-        "op": "remove", 
-        "path": "/variantgroups/0/states/5" 
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
     },
     {
         "dependsOn": [ { "modid": "cropsv2" } ],
-        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot",
-        "op": "add", 
-        "path": "/enabled",
-        "value": false
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    //Exchange beetroot
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/cropsV2/C2conversions.json",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cropsv2", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/cropsV2/C2conversions.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "cropsv2", "invert": true}],
+        "side": "Server"
     },
 
     //Cucumber

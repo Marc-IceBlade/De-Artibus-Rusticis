@@ -28,5 +28,35 @@
 		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 1  }
+	},
+	{
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "floralzonescircumborealregion:seeds-lactucasativa", quantity: 1 }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:seeds-lettuce", quantity: 1  }
+	},
+	{
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "floralzonesmediterraneanregion:seeds-armoraciarusticana" }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:seeds-horseradish", quantity: 1  }
+	},
+	{
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "floralzonescosmopolitanregion:seeds-alliumsativum" }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:seeds-garlic", quantity: 1  }
 	}
 ]

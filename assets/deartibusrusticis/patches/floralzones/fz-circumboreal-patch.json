@@ -347,24 +347,19 @@
       "side": "Server"
     },
 
-    //Remove lettuce
-    {
-        "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
-        "file": "deartibusrusticis:itemtypes/resource/seeds",
-        "op": "remove", 
-        "path": "/variantgroups/0/states/8" 
-    },
-    {
-        "dependsOn": [ { "modid": "floralzonescircumborealregion" } ],
-        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce",
-        "op": "add", 
-        "path": "/enabled",
-        "value": false
-    },
+    //Exchange lettuce
     {
         "op": "addmerge",
         "file": "recipes/grid/floralzones/FCconversions.json",
         "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonescircumborealregion", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/floralzones/FCconversions.json",
+        "path": "/3/enabled",
         "value": false,
         "dependsOn": [{"modid": "floralzonescircumborealregion", "invert": true}],
         "side": "Server"

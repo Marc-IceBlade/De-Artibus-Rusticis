@@ -8,5 +8,15 @@
 		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "deartibusrusticis:vegetable-leek", quantity: 1  }
+	},
+	{
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "bdcrop:seeds-leek" }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:seeds-leek", quantity: 1  }
 	}
 ]

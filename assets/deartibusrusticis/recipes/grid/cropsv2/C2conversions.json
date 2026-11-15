@@ -1,0 +1,22 @@
+[ 
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "cropsv2:vegetable-beet" }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:vegetable-beetroot", quantity: 1  }
+	},
+	{
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "cropsv2:seeds-beet" }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:seeds-beetroot", quantity: 1  }
+	}
+]

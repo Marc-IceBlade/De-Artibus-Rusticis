@@ -105,26 +105,6 @@
       "side": "Server"
     },
 
-	//Pickling
-	{
-        "op": "addmerge",
-        "file": "recipes/barrel/pickledvegetable.json",
-        "path": "/1/enabled",
-        "value": false,
-        "dependsOn": [{"modid": "bdcrop", "invert": true}],
-        "side": "Server"
-    },
-
-	//Conversion
-	{
-        "op": "addmerge",
-        "file": "recipes/grid/BD/BDconversions.json",
-        "path": "/0/enabled",
-        "value": false,
-        "dependsOn": [{"modid": "bdcrop", "invert": true}],
-        "side": "Server"
-    },
-
 	//Gingerbread & Herbal
 	{
         "op": "add",

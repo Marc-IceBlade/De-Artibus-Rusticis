@@ -220,24 +220,19 @@
       "side": "Server"
     },
 
-    //Remove garlic
-    {
-        "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
-        "file": "deartibusrusticis:itemtypes/resource/seeds",
-        "op": "remove", 
-        "path": "/variantgroups/0/states/4" 
-    },
-    {
-        "dependsOn": [ { "modid": "floralzonesmediterraneanregion" } ],
-        "file": "deartibusrusticis:blocktypes/plant/crop/garlic",
-        "op": "add", 
-        "path": "/enabled",
-        "value": false
-    },
+    //Exchange Garlic
     {
         "op": "addmerge",
         "file": "recipes/grid/floralzones/FCconversions.json",
         "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "floralzonesmediterraneanregion", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/floralzones/FCconversions.json",
+        "path": "/4/enabled",
         "value": false,
         "dependsOn": [{"modid": "floralzonesmediterraneanregion", "invert": true}],
         "side": "Server"
