@@ -64,8 +64,8 @@
 			"*": null
 		},
 		"transformsWhenSmokedByType": {
-			"*-bloodsausage-raw": "butchering:seasonedsausage-bloodsausage-smoked",
-			"*-blackpudding-raw": "butchering:seasonedsausage-blackpudding-smoked",
+			"*-bloodsausage-raw": "deartibusrusticis:seasonedsausage-bloodsausage-smoked",
+			"*-blackpudding-raw": "deartibusrusticis:seasonedsausage-blackpudding-smoked",
 			"*": null
 		}
 	},
